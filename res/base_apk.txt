@@ -1,0 +1,1636 @@
+Application: com.giobat.troviamoci.apk
+Launcher Node: LAUNCHER_NODE[]25107
+Current Node: DIALOG[android.app.Dialog]17344, alloc: <com.giobat.troviamoci.MainActivity: void t0()>
+Number of in edges: 0
+Number of out edges: 0
+Current Node: ACT[com.google.android.gms.common.api.GoogleApiActivity]1705
+Number of in edges: 3
+Number of out edges: 3
+Current Node: DIALOG[android.app.AlertDialog]23698, alloc: <com.giobat.troviamoci.MainActivity: void R()>
+Number of in edges: 4
+Number of out edges: 5
+Current Node: ACT[com.giobat.troviamoci.P2_ScreenSlidePagerActivity]1727
+Number of in edges: 5
+Number of out edges: 5
+Current Node: ACT[com.google.android.gms.ads.AdActivity]1688
+Number of in edges: 4
+Number of out edges: 4
+Current Node: ACT[com.google.android.gms.oss.licenses.OssLicensesActivity]1721
+Number of in edges: 3
+Number of out edges: 3
+Current Node: DIALOG[android.app.AlertDialog]23688, alloc: <com.giobat.troviamoci.MainActivity: void l0()>
+Number of in edges: 0
+Number of out edges: 0
+Current Node: ACT[com.giobat.troviamoci.MainActivity]1660
+Number of in edges: 74
+Number of out edges: 37
+Current Node: DIALOG[android.app.AlertDialog]23681, alloc: <com.giobat.troviamoci.MainActivity: void F1()>
+Number of in edges: 0
+Number of out edges: 0
+Current Node: DIALOG[android.app.AlertDialog]23686, alloc: <com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+Number of in edges: 5
+Number of out edges: 7
+Current Node: ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+Number of in edges: 9
+Number of out edges: 11
+Current Node: DIALOG[android.app.AlertDialog]23691, alloc: <com.giobat.troviamoci.ActivityNewFileDialog: void X(java.lang.String,android.content.Context)>
+Number of in edges: 0
+Number of out edges: 0
+Current Node: DIALOG[android.app.AlertDialog]23685, alloc: <com.giobat.troviamoci.MainActivity: void w0()>
+Number of in edges: 4
+Number of out edges: 7
+Current Node: ACT[com.google.android.gms.oss.licenses.OssLicensesMenuActivity]1716
+Number of in edges: 4
+Number of out edges: 4
+Current Node: DIALOG[android.app.AlertDialog]23693, alloc: <com.giobat.troviamoci.MainActivity: void W0()>
+Number of in edges: 0
+Number of out edges: 0
+Current Node: DIALOG[android.app.AlertDialog]23695, alloc: <com.giobat.troviamoci.MainActivity: void Y(java.lang.String,java.lang.String,com.giobat.troviamoci.r,boolean)>
+Number of in edges: 3
+Number of out edges: 6
+Current Node: DIALOG[android.app.AlertDialog]23694, alloc: <com.giobat.troviamoci.ActivityNewFileDialog: void Y(java.lang.String,android.content.Context)>
+Number of in edges: 0
+Number of out edges: 0
+Current Node: DIALOG[android.app.AlertDialog]23692, alloc: <com.giobat.troviamoci.ActivityNewFileDialog: void R(com.giobat.troviamoci.m)>
+Number of in edges: 0
+Number of out edges: 0
+Current Node: ACT[com.android.billingclient.api.ProxyBillingActivity]1682
+Number of in edges: 3
+Number of out edges: 3
+Current Node: DIALOG[android.app.AlertDialog]23699, alloc: <com.giobat.troviamoci.MainActivity: void T()>
+Number of in edges: 4
+Number of out edges: 5
+Current Node: LAUNCHER_NODE[]25107
+Number of in edges: 2
+Number of out edges: 1
+Current Node: ACT[com.giobat.troviamoci.ActivityLicenseInfo]1736
+Number of in edges: 4
+Number of out edges: 4
+Current Node: DIALOG[android.app.AlertDialog]23679, alloc: <com.giobat.troviamoci.P2_ScreenSlidePagerActivity: void Z()>
+Number of in edges: 0
+Number of out edges: 0
+Current Node: DIALOG[android.app.AlertDialog]23684, alloc: <com.giobat.troviamoci.MainActivity: void onClick_recorderViewOn(android.view.View)>
+Number of in edges: 3
+Number of out edges: 6
+Current Node: OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Number of in edges: 2
+Number of out edges: 15
+Current Node: DIALOG[android.app.AlertDialog]23700, alloc: <com.giobat.troviamoci.MainActivity: void U()>
+Number of in edges: 4
+Number of out edges: 5
+Current Node: DIALOG[android.app.AlertDialog]23678, alloc: <com.giobat.troviamoci.MainActivity: void onClick_sendMyPosition(android.view.View)>
+Number of in edges: 3
+Number of out edges: 6
+Current Node: DIALOG[android.app.AlertDialog]23690, alloc: <com.giobat.troviamoci.MainActivity: void T0()>
+Number of in edges: 3
+Number of out edges: 5
+Current Node: DIALOG[android.app.AlertDialog]23697, alloc: <com.giobat.troviamoci.MainActivity: void V()>
+Number of in edges: 0
+Number of out edges: 0
+Current Node: ACT[com.giobat.troviamoci.ActivityMyPhotoShow]1733
+Number of in edges: 7
+Number of out edges: 7
+Current Node: DIALOG[android.app.AlertDialog]23683, alloc: <com.giobat.troviamoci.MainActivity: void S(com.giobat.troviamoci.r,boolean)>
+Number of in edges: 4
+Number of out edges: 6
+Current Node: DIALOG[android.app.AlertDialog]23682, alloc: <com.giobat.troviamoci.MainActivity: void F1()>
+Number of in edges: 3
+Number of out edges: 5
+Current Node: DIALOG[android.app.AlertDialog]23687, alloc: <com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+Number of in edges: 0
+Number of out edges: 0
+Current Edge ID: 760073673
+Source Window: DIALOG[android.app.AlertDialog]23690, alloc: <com.giobat.troviamoci.MainActivity: void T0()>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onDestroy()>
+	<com.giobat.troviamoci.MainActivity: void onCreate(android.os.Bundle)>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23690, alloc: <com.giobat.troviamoci.MainActivity: void T0()>
+POP ACT[com.giobat.troviamoci.MainActivity]1660
+PUSH ACT[com.giobat.troviamoci.MainActivity]1660
+Current Edge ID: 1412582306
+Source Window: OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_back_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+Stack Operations: 
+POP OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Current Edge ID: 667449865
+Source Window: DIALOG[android.app.AlertDialog]23678, alloc: <com.giobat.troviamoci.MainActivity: void onClick_sendMyPosition(android.view.View)>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onDestroy()>
+	<com.giobat.troviamoci.MainActivity: void onCreate(android.os.Bundle)>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23678, alloc: <com.giobat.troviamoci.MainActivity: void onClick_sendMyPosition(android.view.View)>
+POP ACT[com.giobat.troviamoci.MainActivity]1660
+PUSH ACT[com.giobat.troviamoci.MainActivity]1660
+Current Edge ID: 767262732
+Source Window: ACT[com.giobat.troviamoci.ActivityLicenseInfo]1736
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_back_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+POP ACT[com.giobat.troviamoci.ActivityLicenseInfo]1736
+Current Edge ID: 1859859447
+Source Window: DIALOG[android.app.AlertDialog]23682, alloc: <com.giobat.troviamoci.MainActivity: void F1()>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_back_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23682, alloc: <com.giobat.troviamoci.MainActivity: void F1()>
+Current Edge ID: 686955221
+Source Window: OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+POP OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Current Edge ID: 1275995632
+Source Window: ACT[com.google.android.gms.common.api.GoogleApiActivity]1705
+Target Window: ACT[com.google.android.gms.common.api.GoogleApiActivity]1705
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1036285853
+Source Window: DIALOG[android.app.AlertDialog]23690, alloc: <com.giobat.troviamoci.MainActivity: void T0()>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<FakeName_140: void onClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23690, alloc: <com.giobat.troviamoci.MainActivity: void T0()>
+Current Edge ID: 179814233
+Source Window: DIALOG[android.app.AlertDialog]23678, alloc: <com.giobat.troviamoci.MainActivity: void onClick_sendMyPosition(android.view.View)>
+Target Window: DIALOG[android.app.AlertDialog]23678, alloc: <com.giobat.troviamoci.MainActivity: void onClick_sendMyPosition(android.view.View)>
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 850077800
+Source Window: DIALOG[android.app.AlertDialog]23700, alloc: <com.giobat.troviamoci.MainActivity: void U()>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<FakeName_122: void onClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23700, alloc: <com.giobat.troviamoci.MainActivity: void U()>
+Current Edge ID: 263694952
+Source Window: ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+Target Window: ACT[com.giobat.troviamoci.ActivityMyPhotoShow]1733
+EventType: item_long_click
+Event Callbacks: 
+	<com.giobat.troviamoci.ActivityNewFileDialog$c: boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long)>
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.ActivityMyPhotoShow: void onCreate(android.os.Bundle)>
+	<com.giobat.troviamoci.ActivityNewFileDialog: void onDestroy()>
+Stack Operations: 
+POP ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+PUSH ACT[com.giobat.troviamoci.ActivityMyPhotoShow]1733
+Current Edge ID: 298929308
+Source Window: DIALOG[android.app.AlertDialog]23700, alloc: <com.giobat.troviamoci.MainActivity: void U()>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<FakeName_126: void onClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23700, alloc: <com.giobat.troviamoci.MainActivity: void U()>
+Current Edge ID: 640382088
+Source Window: ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+Target Window: ACT[com.giobat.troviamoci.ActivityMyPhotoShow]1733
+EventType: item_long_click
+Event Callbacks: 
+	<com.giobat.troviamoci.ActivityNewFileDialog$c: boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long)>
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.ActivityMyPhotoShow: void onCreate(android.os.Bundle)>
+Stack Operations: 
+PUSH ACT[com.giobat.troviamoci.ActivityMyPhotoShow]1733
+Current Edge ID: 1302913101
+Source Window: DIALOG[android.app.AlertDialog]23685, alloc: <com.giobat.troviamoci.MainActivity: void w0()>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onDestroy()>
+	<com.giobat.troviamoci.MainActivity: void onCreate(android.os.Bundle)>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23685, alloc: <com.giobat.troviamoci.MainActivity: void w0()>
+POP ACT[com.giobat.troviamoci.MainActivity]1660
+PUSH ACT[com.giobat.troviamoci.MainActivity]1660
+Current Edge ID: 2147415930
+Source Window: DIALOG[android.app.AlertDialog]23683, alloc: <com.giobat.troviamoci.MainActivity: void S(com.giobat.troviamoci.r,boolean)>
+Target Window: DIALOG[android.app.AlertDialog]23683, alloc: <com.giobat.troviamoci.MainActivity: void S(com.giobat.troviamoci.r,boolean)>
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 1691410869
+Source Window: DIALOG[android.app.AlertDialog]23699, alloc: <com.giobat.troviamoci.MainActivity: void T()>
+Target Window: DIALOG[android.app.AlertDialog]23699, alloc: <com.giobat.troviamoci.MainActivity: void T()>
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 430065299
+Source Window: DIALOG[android.app.AlertDialog]23685, alloc: <com.giobat.troviamoci.MainActivity: void w0()>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<FakeName_62: void onClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23685, alloc: <com.giobat.troviamoci.MainActivity: void w0()>
+Current Edge ID: 327313250
+Source Window: DIALOG[android.app.AlertDialog]23685, alloc: <com.giobat.troviamoci.MainActivity: void w0()>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<FakeName_58: void onClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23685, alloc: <com.giobat.troviamoci.MainActivity: void w0()>
+Current Edge ID: 458168143
+Source Window: DIALOG[android.app.AlertDialog]23690, alloc: <com.giobat.troviamoci.MainActivity: void T0()>
+Target Window: DIALOG[android.app.AlertDialog]23690, alloc: <com.giobat.troviamoci.MainActivity: void T0()>
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 2029093082
+Source Window: DIALOG[android.app.AlertDialog]23684, alloc: <com.giobat.troviamoci.MainActivity: void onClick_recorderViewOn(android.view.View)>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_back_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23684, alloc: <com.giobat.troviamoci.MainActivity: void onClick_recorderViewOn(android.view.View)>
+Current Edge ID: 1936508809
+Source Window: DIALOG[android.app.AlertDialog]23699, alloc: <com.giobat.troviamoci.MainActivity: void T()>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<FakeName_102: void onClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23699, alloc: <com.giobat.troviamoci.MainActivity: void T()>
+Current Edge ID: 1934952433
+Source Window: DIALOG[android.app.AlertDialog]23699, alloc: <com.giobat.troviamoci.MainActivity: void T()>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<FakeName_96: void onClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23699, alloc: <com.giobat.troviamoci.MainActivity: void T()>
+Current Edge ID: 281248699
+Source Window: DIALOG[android.app.AlertDialog]23683, alloc: <com.giobat.troviamoci.MainActivity: void S(com.giobat.troviamoci.r,boolean)>
+Target Window: DIALOG[android.app.AlertDialog]23683, alloc: <com.giobat.troviamoci.MainActivity: void S(com.giobat.troviamoci.r,boolean)>
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onDestroy()>
+	<com.giobat.troviamoci.MainActivity: void onCreate(android.os.Bundle)>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23683, alloc: <com.giobat.troviamoci.MainActivity: void S(com.giobat.troviamoci.r,boolean)>
+POP DIALOG[android.app.AlertDialog]23683, alloc: <com.giobat.troviamoci.MainActivity: void S(com.giobat.troviamoci.r,boolean)>
+PUSH DIALOG[android.app.AlertDialog]23683, alloc: <com.giobat.troviamoci.MainActivity: void S(com.giobat.troviamoci.r,boolean)>
+Current Edge ID: 1690318377
+Source Window: ACT[com.giobat.troviamoci.P2_ScreenSlidePagerActivity]1727
+Target Window: ACT[com.giobat.troviamoci.P2_ScreenSlidePagerActivity]1727
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.P2_ScreenSlidePagerActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 1904600503
+Source Window: DIALOG[android.app.AlertDialog]23683, alloc: <com.giobat.troviamoci.MainActivity: void S(com.giobat.troviamoci.r,boolean)>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<FakeName_154: void onClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23683, alloc: <com.giobat.troviamoci.MainActivity: void S(com.giobat.troviamoci.r,boolean)>
+Current Edge ID: 716443385
+Source Window: DIALOG[android.app.AlertDialog]23683, alloc: <com.giobat.troviamoci.MainActivity: void S(com.giobat.troviamoci.r,boolean)>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<FakeName_160: void onClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23683, alloc: <com.giobat.troviamoci.MainActivity: void S(com.giobat.troviamoci.r,boolean)>
+Current Edge ID: 652643919
+Source Window: DIALOG[android.app.AlertDialog]23678, alloc: <com.giobat.troviamoci.MainActivity: void onClick_sendMyPosition(android.view.View)>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<FakeName_136: void onClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23678, alloc: <com.giobat.troviamoci.MainActivity: void onClick_sendMyPosition(android.view.View)>
+Current Edge ID: 1139971524
+Source Window: DIALOG[android.app.AlertDialog]23678, alloc: <com.giobat.troviamoci.MainActivity: void onClick_sendMyPosition(android.view.View)>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<FakeName_132: void onClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23678, alloc: <com.giobat.troviamoci.MainActivity: void onClick_sendMyPosition(android.view.View)>
+Current Edge ID: 486832208
+Source Window: DIALOG[android.app.AlertDialog]23686, alloc: <com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+Target Window: DIALOG[android.app.AlertDialog]23686, alloc: <com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 390950607
+Source Window: ACT[com.google.android.gms.ads.AdActivity]1688
+Target Window: ACT[com.google.android.gms.ads.AdActivity]1688
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.google.android.gms.ads.AdActivity: void onPause()>
+	<com.google.android.gms.ads.AdActivity: void onStop()>
+	<com.google.android.gms.ads.AdActivity: void onRestart()>
+	<com.google.android.gms.ads.AdActivity: void onStart()>
+	<com.google.android.gms.ads.AdActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 88805023
+Source Window: ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+Target Window: ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.ActivityNewFileDialog: void onDestroy()>
+	<com.giobat.troviamoci.ActivityNewFileDialog: void onCreate(android.os.Bundle)>
+	<com.giobat.troviamoci.ActivityNewFileDialog: void onResume()>
+Stack Operations: 
+POP ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+PUSH ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+Current Edge ID: 1379989319
+Source Window: ACT[com.giobat.troviamoci.ActivityMyPhotoShow]1733
+Target Window: ACT[com.giobat.troviamoci.ActivityMyPhotoShow]1733
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.ActivityMyPhotoShow: void onCreate(android.os.Bundle)>
+Stack Operations: 
+POP ACT[com.giobat.troviamoci.ActivityMyPhotoShow]1733
+PUSH ACT[com.giobat.troviamoci.ActivityMyPhotoShow]1733
+Current Edge ID: 1815663527
+Source Window: ACT[com.giobat.troviamoci.ActivityLicenseInfo]1736
+Target Window: ACT[com.giobat.troviamoci.ActivityLicenseInfo]1736
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 276820985
+Source Window: ACT[com.android.billingclient.api.ProxyBillingActivity]1682
+Target Window: ACT[com.android.billingclient.api.ProxyBillingActivity]1682
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1302149279
+Source Window: ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+Target Window: ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.ActivityNewFileDialog: void onResume()>
+Stack Operations: 
+Current Edge ID: 414323876
+Source Window: DIALOG[android.app.AlertDialog]23698, alloc: <com.giobat.troviamoci.MainActivity: void R()>
+Target Window: DIALOG[android.app.AlertDialog]23698, alloc: <com.giobat.troviamoci.MainActivity: void R()>
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 851270142
+Source Window: ACT[com.giobat.troviamoci.P2_ScreenSlidePagerActivity]1727
+Target Window: ACT[com.giobat.troviamoci.P2_ScreenSlidePagerActivity]1727
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.P2_ScreenSlidePagerActivity: void onClickOK(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1571984491
+Source Window: ACT[com.giobat.troviamoci.P2_ScreenSlidePagerActivity]1727
+Target Window: ACT[com.giobat.troviamoci.P2_ScreenSlidePagerActivity]1727
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.P2_ScreenSlidePagerActivity: void onClickOK(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 2043610754
+Source Window: ACT[com.google.android.gms.ads.AdActivity]1688
+Target Window: ACT[com.google.android.gms.ads.AdActivity]1688
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.google.android.gms.ads.AdActivity: void onPause()>
+	<com.google.android.gms.ads.AdActivity: void onStop()>
+	<com.google.android.gms.ads.AdActivity: void onDestroy()>
+	<com.google.android.gms.ads.AdActivity: void onCreate(android.os.Bundle)>
+	<com.google.android.gms.ads.AdActivity: void onStart()>
+	<com.google.android.gms.ads.AdActivity: void onResume()>
+Stack Operations: 
+POP ACT[com.google.android.gms.ads.AdActivity]1688
+PUSH ACT[com.google.android.gms.ads.AdActivity]1688
+Current Edge ID: 1901079083
+Source Window: ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+Target Window: ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+EventType: item_click
+Event Callbacks: 
+	<com.giobat.troviamoci.ActivityNewFileDialog$b: void onItemClick(android.widget.AdapterView,android.view.View,int,long)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 695922518
+Source Window: ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+Target Window: ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+EventType: item_long_click
+Event Callbacks: 
+	<com.giobat.troviamoci.ActivityNewFileDialog$c: boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1621239774
+Source Window: ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+Target Window: ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.ActivityNewFileDialog: void sortFilesList(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1633207902
+Source Window: ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+Target Window: ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.ActivityNewFileDialog: void onClickGoBack(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 287947052
+Source Window: DIALOG[android.app.AlertDialog]23695, alloc: <com.giobat.troviamoci.MainActivity: void Y(java.lang.String,java.lang.String,com.giobat.troviamoci.r,boolean)>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_back_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23695, alloc: <com.giobat.troviamoci.MainActivity: void Y(java.lang.String,java.lang.String,com.giobat.troviamoci.r,boolean)>
+Current Edge ID: 1868030976
+Source Window: DIALOG[android.app.AlertDialog]23686, alloc: <com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_back_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23686, alloc: <com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+Current Edge ID: 515547875
+Source Window: ACT[com.google.android.gms.ads.AdActivity]1688
+Target Window: ACT[com.google.android.gms.ads.AdActivity]1688
+EventType: implicit_on_activity_result
+Event Callbacks: 
+	<com.google.android.gms.ads.AdActivity: void onActivityResult(int,int,android.content.Intent)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 964164956
+Source Window: ACT[com.giobat.troviamoci.P2_ScreenSlidePagerActivity]1727
+Target Window: ACT[com.giobat.troviamoci.P2_ScreenSlidePagerActivity]1727
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.P2_ScreenSlidePagerActivity: void onCreate(android.os.Bundle)>
+	<com.giobat.troviamoci.P2_ScreenSlidePagerActivity: void onResume()>
+Stack Operations: 
+POP ACT[com.giobat.troviamoci.P2_ScreenSlidePagerActivity]1727
+PUSH ACT[com.giobat.troviamoci.P2_ScreenSlidePagerActivity]1727
+Current Edge ID: 1707856775
+Source Window: DIALOG[android.app.AlertDialog]23685, alloc: <com.giobat.troviamoci.MainActivity: void w0()>
+Target Window: DIALOG[android.app.AlertDialog]23685, alloc: <com.giobat.troviamoci.MainActivity: void w0()>
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 896294106
+Source Window: DIALOG[android.app.AlertDialog]23700, alloc: <com.giobat.troviamoci.MainActivity: void U()>
+Target Window: DIALOG[android.app.AlertDialog]23700, alloc: <com.giobat.troviamoci.MainActivity: void U()>
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onDestroy()>
+	<com.giobat.troviamoci.MainActivity: void onCreate(android.os.Bundle)>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23700, alloc: <com.giobat.troviamoci.MainActivity: void U()>
+POP DIALOG[android.app.AlertDialog]23700, alloc: <com.giobat.troviamoci.MainActivity: void U()>
+PUSH DIALOG[android.app.AlertDialog]23700, alloc: <com.giobat.troviamoci.MainActivity: void U()>
+Current Edge ID: 2114604334
+Source Window: OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Target Window: ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.ActivityNewFileDialog: void onCreate(android.os.Bundle)>
+	<com.giobat.troviamoci.ActivityNewFileDialog: void onResume()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+Stack Operations: 
+POP OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+PUSH ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+Current Edge ID: 2022822574
+Source Window: DIALOG[android.app.AlertDialog]23700, alloc: <com.giobat.troviamoci.MainActivity: void U()>
+Target Window: DIALOG[android.app.AlertDialog]23700, alloc: <com.giobat.troviamoci.MainActivity: void U()>
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 1132294608
+Source Window: ACT[com.giobat.troviamoci.ActivityLicenseInfo]1736
+Target Window: ACT[com.giobat.troviamoci.ActivityLicenseInfo]1736
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 346062825
+Source Window: DIALOG[android.app.AlertDialog]23682, alloc: <com.giobat.troviamoci.MainActivity: void F1()>
+Target Window: DIALOG[android.app.AlertDialog]23682, alloc: <com.giobat.troviamoci.MainActivity: void F1()>
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 946807662
+Source Window: ACT[com.google.android.gms.oss.licenses.OssLicensesMenuActivity]1716
+Target Window: ACT[com.google.android.gms.oss.licenses.OssLicensesMenuActivity]1716
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1310560879
+Source Window: ACT[com.giobat.troviamoci.P2_ScreenSlidePagerActivity]1727
+Target Window: ACT[com.giobat.troviamoci.P2_ScreenSlidePagerActivity]1727
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.P2_ScreenSlidePagerActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 1715898765
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: DIALOG[android.app.AlertDialog]23698, alloc: <com.giobat.troviamoci.MainActivity: void R()>
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_recorderClear(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+PUSH DIALOG[android.app.AlertDialog]23698, alloc: <com.giobat.troviamoci.MainActivity: void R()>
+Current Edge ID: 1896803739
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Stack Operations: 
+PUSH OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Current Edge ID: 817611911
+Source Window: OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Target Window: OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onDestroy()>
+	<com.giobat.troviamoci.MainActivity: void onCreate(android.os.Bundle)>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+	<com.giobat.troviamoci.MainActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+Stack Operations: 
+POP OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+POP ACT[com.giobat.troviamoci.MainActivity]1660
+PUSH ACT[com.giobat.troviamoci.MainActivity]1660
+PUSH OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Current Edge ID: 303543829
+Source Window: DIALOG[android.app.AlertDialog]23685, alloc: <com.giobat.troviamoci.MainActivity: void w0()>
+Target Window: LAUNCHER_NODE[]25107
+EventType: click
+Event Callbacks: 
+	<FakeName_58: void onClick(android.view.View)>
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onDestroy()>
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23685, alloc: <com.giobat.troviamoci.MainActivity: void w0()>
+POP ACT[com.giobat.troviamoci.MainActivity]1660
+Current Edge ID: 1078939451
+Source Window: ACT[com.android.billingclient.api.ProxyBillingActivity]1682
+Target Window: ACT[com.android.billingclient.api.ProxyBillingActivity]1682
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1177223324
+Source Window: DIALOG[android.app.AlertDialog]23686, alloc: <com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<FakeName_46: void onClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23686, alloc: <com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+Current Edge ID: 685407010
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 122869554
+Source Window: DIALOG[android.app.AlertDialog]23695, alloc: <com.giobat.troviamoci.MainActivity: void Y(java.lang.String,java.lang.String,com.giobat.troviamoci.r,boolean)>
+Target Window: DIALOG[android.app.AlertDialog]23695, alloc: <com.giobat.troviamoci.MainActivity: void Y(java.lang.String,java.lang.String,com.giobat.troviamoci.r,boolean)>
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 1037985396
+Source Window: ACT[com.giobat.troviamoci.ActivityLicenseInfo]1736
+Target Window: ACT[com.giobat.troviamoci.ActivityLicenseInfo]1736
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.ActivityLicenseInfo: void onCreate(android.os.Bundle)>
+Stack Operations: 
+POP ACT[com.giobat.troviamoci.ActivityLicenseInfo]1736
+PUSH ACT[com.giobat.troviamoci.ActivityLicenseInfo]1736
+Current Edge ID: 594521779
+Source Window: DIALOG[android.app.AlertDialog]23695, alloc: <com.giobat.troviamoci.MainActivity: void Y(java.lang.String,java.lang.String,com.giobat.troviamoci.r,boolean)>
+Target Window: DIALOG[android.app.AlertDialog]23695, alloc: <com.giobat.troviamoci.MainActivity: void Y(java.lang.String,java.lang.String,com.giobat.troviamoci.r,boolean)>
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 1477956247
+Source Window: DIALOG[android.app.AlertDialog]23686, alloc: <com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+Target Window: DIALOG[android.app.AlertDialog]23686, alloc: <com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 1240294880
+Source Window: DIALOG[android.app.AlertDialog]23682, alloc: <com.giobat.troviamoci.MainActivity: void F1()>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onDestroy()>
+	<com.giobat.troviamoci.MainActivity: void onCreate(android.os.Bundle)>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23682, alloc: <com.giobat.troviamoci.MainActivity: void F1()>
+POP ACT[com.giobat.troviamoci.MainActivity]1660
+PUSH ACT[com.giobat.troviamoci.MainActivity]1660
+Current Edge ID: 130963311
+Source Window: DIALOG[android.app.AlertDialog]23686, alloc: <com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+Target Window: DIALOG[android.app.AlertDialog]23686, alloc: <com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 1493859091
+Source Window: DIALOG[android.app.AlertDialog]23685, alloc: <com.giobat.troviamoci.MainActivity: void w0()>
+Target Window: DIALOG[android.app.AlertDialog]23685, alloc: <com.giobat.troviamoci.MainActivity: void w0()>
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 1072662991
+Source Window: DIALOG[android.app.AlertDialog]23690, alloc: <com.giobat.troviamoci.MainActivity: void T0()>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_back_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23690, alloc: <com.giobat.troviamoci.MainActivity: void T0()>
+Current Edge ID: 495925687
+Source Window: DIALOG[android.app.AlertDialog]23699, alloc: <com.giobat.troviamoci.MainActivity: void T()>
+Target Window: DIALOG[android.app.AlertDialog]23699, alloc: <com.giobat.troviamoci.MainActivity: void T()>
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onDestroy()>
+	<com.giobat.troviamoci.MainActivity: void onCreate(android.os.Bundle)>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23699, alloc: <com.giobat.troviamoci.MainActivity: void T()>
+POP DIALOG[android.app.AlertDialog]23699, alloc: <com.giobat.troviamoci.MainActivity: void T()>
+PUSH DIALOG[android.app.AlertDialog]23699, alloc: <com.giobat.troviamoci.MainActivity: void T()>
+Current Edge ID: 1754226758
+Source Window: ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+Target Window: ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.ActivityNewFileDialog: void onResume()>
+Stack Operations: 
+Current Edge ID: 1658281127
+Source Window: DIALOG[android.app.AlertDialog]23684, alloc: <com.giobat.troviamoci.MainActivity: void onClick_recorderViewOn(android.view.View)>
+Target Window: DIALOG[android.app.AlertDialog]23684, alloc: <com.giobat.troviamoci.MainActivity: void onClick_recorderViewOn(android.view.View)>
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 565514435
+Source Window: DIALOG[android.app.AlertDialog]23684, alloc: <com.giobat.troviamoci.MainActivity: void onClick_recorderViewOn(android.view.View)>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<FakeName_118: void onClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23684, alloc: <com.giobat.troviamoci.MainActivity: void onClick_recorderViewOn(android.view.View)>
+Current Edge ID: 1167316931
+Source Window: DIALOG[android.app.AlertDialog]23684, alloc: <com.giobat.troviamoci.MainActivity: void onClick_recorderViewOn(android.view.View)>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<FakeName_114: void onClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23684, alloc: <com.giobat.troviamoci.MainActivity: void onClick_recorderViewOn(android.view.View)>
+Current Edge ID: 1443693159
+Source Window: ACT[com.google.android.gms.ads.AdActivity]1688
+Target Window: ACT[com.google.android.gms.ads.AdActivity]1688
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.google.android.gms.ads.AdActivity: void onPause()>
+	<com.google.android.gms.ads.AdActivity: void onStop()>
+	<com.google.android.gms.ads.AdActivity: void onRestart()>
+	<com.google.android.gms.ads.AdActivity: void onStart()>
+	<com.google.android.gms.ads.AdActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 241655397
+Source Window: DIALOG[android.app.AlertDialog]23678, alloc: <com.giobat.troviamoci.MainActivity: void onClick_sendMyPosition(android.view.View)>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_back_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23678, alloc: <com.giobat.troviamoci.MainActivity: void onClick_sendMyPosition(android.view.View)>
+Current Edge ID: 131949666
+Source Window: ACT[com.android.billingclient.api.ProxyBillingActivity]1682
+Target Window: ACT[com.android.billingclient.api.ProxyBillingActivity]1682
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.android.billingclient.api.ProxyBillingActivity: void onDestroy()>
+	<com.android.billingclient.api.ProxyBillingActivity: void onCreate(android.os.Bundle)>
+Stack Operations: 
+POP ACT[com.android.billingclient.api.ProxyBillingActivity]1682
+PUSH ACT[com.android.billingclient.api.ProxyBillingActivity]1682
+Current Edge ID: 1546360469
+Source Window: DIALOG[android.app.AlertDialog]23690, alloc: <com.giobat.troviamoci.MainActivity: void T0()>
+Target Window: DIALOG[android.app.AlertDialog]23690, alloc: <com.giobat.troviamoci.MainActivity: void T0()>
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 1644935501
+Source Window: ACT[com.giobat.troviamoci.ActivityMyPhotoShow]1733
+Target Window: ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+EventType: implicit_back_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.ActivityNewFileDialog: void onResume()>
+Stack Operations: 
+POP ACT[com.giobat.troviamoci.ActivityMyPhotoShow]1733
+Current Edge ID: 1454069535
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: DIALOG[android.app.AlertDialog]23700, alloc: <com.giobat.troviamoci.MainActivity: void U()>
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_newPointOfInterest(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+PUSH DIALOG[android.app.AlertDialog]23700, alloc: <com.giobat.troviamoci.MainActivity: void U()>
+Current Edge ID: 976869340
+Source Window: DIALOG[android.app.AlertDialog]23695, alloc: <com.giobat.troviamoci.MainActivity: void Y(java.lang.String,java.lang.String,com.giobat.troviamoci.r,boolean)>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<FakeName_74: void onClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23695, alloc: <com.giobat.troviamoci.MainActivity: void Y(java.lang.String,java.lang.String,com.giobat.troviamoci.r,boolean)>
+Current Edge ID: 983986480
+Source Window: ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: item_long_click
+Event Callbacks: 
+	<com.giobat.troviamoci.ActivityNewFileDialog$c: boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long)>
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+	<com.giobat.troviamoci.ActivityNewFileDialog: void onDestroy()>
+Stack Operations: 
+POP ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+Current Edge ID: 89679608
+Source Window: DIALOG[android.app.AlertDialog]23695, alloc: <com.giobat.troviamoci.MainActivity: void Y(java.lang.String,java.lang.String,com.giobat.troviamoci.r,boolean)>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<FakeName_70: void onClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23695, alloc: <com.giobat.troviamoci.MainActivity: void Y(java.lang.String,java.lang.String,com.giobat.troviamoci.r,boolean)>
+Current Edge ID: 155704035
+Source Window: ACT[com.google.android.gms.oss.licenses.OssLicensesActivity]1721
+Target Window: ACT[com.google.android.gms.oss.licenses.OssLicensesActivity]1721
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 2100587296
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: LAUNCHER_NODE[]25107
+EventType: implicit_back_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onDestroy()>
+Stack Operations: 
+POP ACT[com.giobat.troviamoci.MainActivity]1660
+Current Edge ID: 1947380295
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onDestroy()>
+	<com.giobat.troviamoci.MainActivity: void onCreate(android.os.Bundle)>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+POP ACT[com.giobat.troviamoci.MainActivity]1660
+PUSH ACT[com.giobat.troviamoci.MainActivity]1660
+Current Edge ID: 851148187
+Source Window: ACT[com.google.android.gms.oss.licenses.OssLicensesActivity]1721
+Target Window: ACT[com.google.android.gms.oss.licenses.OssLicensesActivity]1721
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.google.android.gms.oss.licenses.OssLicensesActivity: void onCreate(android.os.Bundle)>
+Stack Operations: 
+POP ACT[com.google.android.gms.oss.licenses.OssLicensesActivity]1721
+PUSH ACT[com.google.android.gms.oss.licenses.OssLicensesActivity]1721
+Current Edge ID: 85731821
+Source Window: OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+POP OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Current Edge ID: 1529818885
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 974059189
+Source Window: OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Current Edge ID: 1404044234
+Source Window: OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Current Edge ID: 923208464
+Source Window: OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Current Edge ID: 359816690
+Source Window: OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Current Edge ID: 1485093559
+Source Window: DIALOG[android.app.AlertDialog]23686, alloc: <com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+Target Window: DIALOG[android.app.AlertDialog]23686, alloc: <com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+PUSH DIALOG[android.app.AlertDialog]23686, alloc: <com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+Current Edge ID: 192498750
+Source Window: DIALOG[android.app.AlertDialog]23683, alloc: <com.giobat.troviamoci.MainActivity: void S(com.giobat.troviamoci.r,boolean)>
+Target Window: DIALOG[android.app.AlertDialog]23683, alloc: <com.giobat.troviamoci.MainActivity: void S(com.giobat.troviamoci.r,boolean)>
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 69835210
+Source Window: ACT[com.giobat.troviamoci.ActivityMyPhotoShow]1733
+Target Window: ACT[com.giobat.troviamoci.ActivityMyPhotoShow]1733
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 53725552
+Source Window: DIALOG[android.app.AlertDialog]23678, alloc: <com.giobat.troviamoci.MainActivity: void onClick_sendMyPosition(android.view.View)>
+Target Window: DIALOG[android.app.AlertDialog]23678, alloc: <com.giobat.troviamoci.MainActivity: void onClick_sendMyPosition(android.view.View)>
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 1069953506
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_LoadedGraphWindowsOff(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 2115996323
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_skipLocSettings(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1955019362
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 15666596
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_sendMyPosition(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1637820881
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_newPointOfInterest(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 722766371
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_showWalking2(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1743833546
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_recorderSave(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1512980429
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_TakePhoto(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 746998698
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: press_key
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: boolean onKeyDown(int,android.view.KeyEvent)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1861749800
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_focusOnLoadedTrack(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 414867319
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_lavagnaOff(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1240972659
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_CurrentGraphWindowsOff(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 666676546
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_showGpsStatus(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 682139445
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_followPathMonitor(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 293624145
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_recorderStartStop(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 2003376153
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_on_activity_result
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onActivityResult(int,int,android.content.Intent)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1779181517
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_showWalking(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1749349053
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_recorderViewOff(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1417474483
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_lavagnaOff(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1564118869
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_recorderViewOn(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1538669709
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_showElevationProfileOfLoadedTrack(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1132414859
+Source Window: OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Target Window: DIALOG[android.app.AlertDialog]23682, alloc: <com.giobat.troviamoci.MainActivity: void F1()>
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+PUSH DIALOG[android.app.AlertDialog]23682, alloc: <com.giobat.troviamoci.MainActivity: void F1()>
+Current Edge ID: 1711511414
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_changeLocSettings(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1502995071
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_focusMyPosition(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1387041999
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_NoAds(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 489837885
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_showElevationProfileOfCurrentTrack(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 71309102
+Source Window: ACT[com.google.android.gms.oss.licenses.OssLicensesMenuActivity]1716
+Target Window: ACT[com.google.android.gms.oss.licenses.OssLicensesMenuActivity]1716
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1035619122
+Source Window: DIALOG[android.app.AlertDialog]23686, alloc: <com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onDestroy()>
+	<com.giobat.troviamoci.MainActivity: void onCreate(android.os.Bundle)>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23686, alloc: <com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+POP ACT[com.giobat.troviamoci.MainActivity]1660
+PUSH ACT[com.giobat.troviamoci.MainActivity]1660
+Current Edge ID: 888355831
+Source Window: DIALOG[android.app.AlertDialog]23700, alloc: <com.giobat.troviamoci.MainActivity: void U()>
+Target Window: DIALOG[android.app.AlertDialog]23700, alloc: <com.giobat.troviamoci.MainActivity: void U()>
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 440727565
+Source Window: OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Target Window: ACT[com.google.android.gms.oss.licenses.OssLicensesMenuActivity]1716
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.google.android.gms.oss.licenses.OssLicensesMenuActivity: void onCreate(android.os.Bundle)>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+Stack Operations: 
+POP OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+PUSH ACT[com.google.android.gms.oss.licenses.OssLicensesMenuActivity]1716
+Current Edge ID: 515470604
+Source Window: DIALOG[android.app.AlertDialog]23699, alloc: <com.giobat.troviamoci.MainActivity: void T()>
+Target Window: DIALOG[android.app.AlertDialog]23699, alloc: <com.giobat.troviamoci.MainActivity: void T()>
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 1899322930
+Source Window: DIALOG[android.app.AlertDialog]23695, alloc: <com.giobat.troviamoci.MainActivity: void Y(java.lang.String,java.lang.String,com.giobat.troviamoci.r,boolean)>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onDestroy()>
+	<com.giobat.troviamoci.MainActivity: void onCreate(android.os.Bundle)>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23695, alloc: <com.giobat.troviamoci.MainActivity: void Y(java.lang.String,java.lang.String,com.giobat.troviamoci.r,boolean)>
+POP ACT[com.giobat.troviamoci.MainActivity]1660
+PUSH ACT[com.giobat.troviamoci.MainActivity]1660
+Current Edge ID: 1546973024
+Source Window: DIALOG[android.app.AlertDialog]23683, alloc: <com.giobat.troviamoci.MainActivity: void S(com.giobat.troviamoci.r,boolean)>
+Target Window: DIALOG[android.app.AlertDialog]23695, alloc: <com.giobat.troviamoci.MainActivity: void Y(java.lang.String,java.lang.String,com.giobat.troviamoci.r,boolean)>
+EventType: click
+Event Callbacks: 
+	<FakeName_154: void onClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23683, alloc: <com.giobat.troviamoci.MainActivity: void S(com.giobat.troviamoci.r,boolean)>
+PUSH DIALOG[android.app.AlertDialog]23695, alloc: <com.giobat.troviamoci.MainActivity: void Y(java.lang.String,java.lang.String,com.giobat.troviamoci.r,boolean)>
+Current Edge ID: 1628299387
+Source Window: DIALOG[android.app.AlertDialog]23685, alloc: <com.giobat.troviamoci.MainActivity: void w0()>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_back_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23685, alloc: <com.giobat.troviamoci.MainActivity: void w0()>
+Current Edge ID: 877258819
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: DIALOG[android.app.AlertDialog]23683, alloc: <com.giobat.troviamoci.MainActivity: void S(com.giobat.troviamoci.r,boolean)>
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_recorderSave(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+PUSH DIALOG[android.app.AlertDialog]23683, alloc: <com.giobat.troviamoci.MainActivity: void S(com.giobat.troviamoci.r,boolean)>
+Current Edge ID: 1876354102
+Source Window: DIALOG[android.app.AlertDialog]23684, alloc: <com.giobat.troviamoci.MainActivity: void onClick_recorderViewOn(android.view.View)>
+Target Window: DIALOG[android.app.AlertDialog]23684, alloc: <com.giobat.troviamoci.MainActivity: void onClick_recorderViewOn(android.view.View)>
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 350374211
+Source Window: ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_back_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+	<com.giobat.troviamoci.ActivityNewFileDialog: void onDestroy()>
+Stack Operations: 
+POP ACT[com.giobat.troviamoci.ActivityNewFileDialog]1711
+Current Edge ID: 451050908
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: DIALOG[android.app.AlertDialog]23678, alloc: <com.giobat.troviamoci.MainActivity: void onClick_sendMyPosition(android.view.View)>
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_sendMyPosition(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+PUSH DIALOG[android.app.AlertDialog]23678, alloc: <com.giobat.troviamoci.MainActivity: void onClick_sendMyPosition(android.view.View)>
+Current Edge ID: 1636992371
+Source Window: LAUNCHER_NODE[]25107
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_launch_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onCreate(android.os.Bundle)>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+PUSH ACT[com.giobat.troviamoci.MainActivity]1660
+Current Edge ID: 968698403
+Source Window: DIALOG[android.app.AlertDialog]23682, alloc: <com.giobat.troviamoci.MainActivity: void F1()>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<FakeName_164: void onClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23682, alloc: <com.giobat.troviamoci.MainActivity: void F1()>
+Current Edge ID: 1058259974
+Source Window: DIALOG[android.app.AlertDialog]23684, alloc: <com.giobat.troviamoci.MainActivity: void onClick_recorderViewOn(android.view.View)>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onDestroy()>
+	<com.giobat.troviamoci.MainActivity: void onCreate(android.os.Bundle)>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23684, alloc: <com.giobat.troviamoci.MainActivity: void onClick_recorderViewOn(android.view.View)>
+POP ACT[com.giobat.troviamoci.MainActivity]1660
+PUSH ACT[com.giobat.troviamoci.MainActivity]1660
+Current Edge ID: 907296997
+Source Window: OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Target Window: DIALOG[android.app.AlertDialog]23690, alloc: <com.giobat.troviamoci.MainActivity: void T0()>
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+PUSH DIALOG[android.app.AlertDialog]23690, alloc: <com.giobat.troviamoci.MainActivity: void T0()>
+Current Edge ID: 1129902665
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: DIALOG[android.app.AlertDialog]23686, alloc: <com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+PUSH DIALOG[android.app.AlertDialog]23686, alloc: <com.giobat.troviamoci.MainActivity: void onCompassClick(android.view.View)>
+Current Edge ID: 333718579
+Source Window: DIALOG[android.app.AlertDialog]23698, alloc: <com.giobat.troviamoci.MainActivity: void R()>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<FakeName_24: void onClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23698, alloc: <com.giobat.troviamoci.MainActivity: void R()>
+Current Edge ID: 855040445
+Source Window: DIALOG[android.app.AlertDialog]23698, alloc: <com.giobat.troviamoci.MainActivity: void R()>
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: click
+Event Callbacks: 
+	<FakeName_28: void onClick(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23698, alloc: <com.giobat.troviamoci.MainActivity: void R()>
+Current Edge ID: 653368430
+Source Window: ACT[com.giobat.troviamoci.ActivityMyPhotoShow]1733
+Target Window: ACT[com.giobat.troviamoci.ActivityMyPhotoShow]1733
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.ActivityMyPhotoShow: void onClickRotate(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 583002179
+Source Window: ACT[com.giobat.troviamoci.ActivityMyPhotoShow]1733
+Target Window: ACT[com.giobat.troviamoci.ActivityMyPhotoShow]1733
+EventType: touch
+Event Callbacks: 
+	<com.ortiz.touchview.TouchImageView$g: boolean onTouch(android.view.View,android.view.MotionEvent)>
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 273188251
+Source Window: DIALOG[android.app.AlertDialog]23698, alloc: <com.giobat.troviamoci.MainActivity: void R()>
+Target Window: DIALOG[android.app.AlertDialog]23698, alloc: <com.giobat.troviamoci.MainActivity: void R()>
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 355886374
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: DIALOG[android.app.AlertDialog]23699, alloc: <com.giobat.troviamoci.MainActivity: void T()>
+EventType: implicit_on_activity_result
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onActivityResult(int,int,android.content.Intent)>
+Lifecycle Callbacks: 
+Stack Operations: 
+PUSH DIALOG[android.app.AlertDialog]23699, alloc: <com.giobat.troviamoci.MainActivity: void T()>
+Current Edge ID: 1066309890
+Source Window: ACT[com.google.android.gms.oss.licenses.OssLicensesActivity]1721
+Target Window: ACT[com.google.android.gms.oss.licenses.OssLicensesActivity]1721
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1647215424
+Source Window: ACT[com.google.android.gms.oss.licenses.OssLicensesMenuActivity]1716
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_back_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+	<com.google.android.gms.oss.licenses.OssLicensesMenuActivity: void onDestroy()>
+Stack Operations: 
+POP ACT[com.google.android.gms.oss.licenses.OssLicensesMenuActivity]1716
+Current Edge ID: 916367043
+Source Window: ACT[com.google.android.gms.common.api.GoogleApiActivity]1705
+Target Window: ACT[com.google.android.gms.common.api.GoogleApiActivity]1705
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 271051363
+Source Window: ACT[com.giobat.troviamoci.MainActivity]1660
+Target Window: DIALOG[android.app.AlertDialog]23684, alloc: <com.giobat.troviamoci.MainActivity: void onClick_recorderViewOn(android.view.View)>
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onClick_recorderViewOn(android.view.View)>
+Lifecycle Callbacks: 
+Stack Operations: 
+PUSH DIALOG[android.app.AlertDialog]23684, alloc: <com.giobat.troviamoci.MainActivity: void onClick_recorderViewOn(android.view.View)>
+Current Edge ID: 1537882092
+Source Window: ACT[com.giobat.troviamoci.ActivityMyPhotoShow]1733
+Target Window: ACT[com.giobat.troviamoci.ActivityMyPhotoShow]1733
+EventType: implicit_power_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+Stack Operations: 
+Current Edge ID: 1292405594
+Source Window: OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Target Window: ACT[com.giobat.troviamoci.ActivityLicenseInfo]1736
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.ActivityLicenseInfo: void onCreate(android.os.Bundle)>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+Stack Operations: 
+POP OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+PUSH ACT[com.giobat.troviamoci.ActivityLicenseInfo]1736
+Current Edge ID: 241403014
+Source Window: DIALOG[android.app.AlertDialog]23682, alloc: <com.giobat.troviamoci.MainActivity: void F1()>
+Target Window: DIALOG[android.app.AlertDialog]23682, alloc: <com.giobat.troviamoci.MainActivity: void F1()>
+EventType: implicit_home_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+Current Edge ID: 565707739
+Source Window: ACT[com.giobat.troviamoci.ActivityMyPhotoShow]1733
+Target Window: ACT[com.giobat.troviamoci.MainActivity]1660
+EventType: implicit_back_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+POP ACT[com.giobat.troviamoci.ActivityMyPhotoShow]1733
+Current Edge ID: 732386647
+Source Window: ACT[com.google.android.gms.common.api.GoogleApiActivity]1705
+Target Window: ACT[com.google.android.gms.common.api.GoogleApiActivity]1705
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.google.android.gms.common.api.GoogleApiActivity: void onCreate(android.os.Bundle)>
+Stack Operations: 
+POP ACT[com.google.android.gms.common.api.GoogleApiActivity]1705
+PUSH ACT[com.google.android.gms.common.api.GoogleApiActivity]1705
+Current Edge ID: 578570530
+Source Window: OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Target Window: DIALOG[android.app.AlertDialog]23685, alloc: <com.giobat.troviamoci.MainActivity: void w0()>
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+PUSH DIALOG[android.app.AlertDialog]23685, alloc: <com.giobat.troviamoci.MainActivity: void w0()>
+Current Edge ID: 808042079
+Source Window: OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+Target Window: DIALOG[android.app.AlertDialog]23685, alloc: <com.giobat.troviamoci.MainActivity: void w0()>
+EventType: click
+Event Callbacks: 
+	<com.giobat.troviamoci.MainActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
+Lifecycle Callbacks: 
+Stack Operations: 
+POP OptionsMenu[com.giobat.troviamoci.MainActivity]1653
+PUSH DIALOG[android.app.AlertDialog]23685, alloc: <com.giobat.troviamoci.MainActivity: void w0()>
+Current Edge ID: 1374602586
+Source Window: ACT[com.google.android.gms.oss.licenses.OssLicensesMenuActivity]1716
+Target Window: ACT[com.google.android.gms.oss.licenses.OssLicensesMenuActivity]1716
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.google.android.gms.oss.licenses.OssLicensesMenuActivity: void onDestroy()>
+	<com.google.android.gms.oss.licenses.OssLicensesMenuActivity: void onCreate(android.os.Bundle)>
+Stack Operations: 
+POP ACT[com.google.android.gms.oss.licenses.OssLicensesMenuActivity]1716
+PUSH ACT[com.google.android.gms.oss.licenses.OssLicensesMenuActivity]1716
+Current Edge ID: 1081225181
+Source Window: DIALOG[android.app.AlertDialog]23698, alloc: <com.giobat.troviamoci.MainActivity: void R()>
+Target Window: DIALOG[android.app.AlertDialog]23698, alloc: <com.giobat.troviamoci.MainActivity: void R()>
+EventType: implicit_rotate_event
+Event Callbacks: 
+Lifecycle Callbacks: 
+	<com.giobat.troviamoci.MainActivity: void onPause()>
+	<com.giobat.troviamoci.MainActivity: void onStop()>
+	<com.giobat.troviamoci.MainActivity: void onDestroy()>
+	<com.giobat.troviamoci.MainActivity: void onCreate(android.os.Bundle)>
+	<com.giobat.troviamoci.MainActivity: void onResume()>
+Stack Operations: 
+POP DIALOG[android.app.AlertDialog]23698, alloc: <com.giobat.troviamoci.MainActivity: void R()>
+POP DIALOG[android.app.AlertDialog]23698, alloc: <com.giobat.troviamoci.MainActivity: void R()>
+PUSH DIALOG[android.app.AlertDialog]23698, alloc: <com.giobat.troviamoci.MainActivity: void R()>
