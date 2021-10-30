@@ -1,0 +1,283 @@
+digraph A_GPS_Tracker {
+	root
+	"com.google.android.gms.oss.licenses.OssLicensesMenuActivity"
+	root -> "com.google.android.gms.oss.licenses.OssLicensesMenuActivity"
+	"com.android.billingclient.api.ProxyBillingActivity"
+	root -> "com.android.billingclient.api.ProxyBillingActivity"
+	"com.giobat.troviamoci.ActivityLicenseInfo"
+	root -> "com.giobat.troviamoci.ActivityLicenseInfo"
+	RelativeLayout [label=RelativeLayout]
+	"com.giobat.troviamoci.ActivityLicenseInfo" -> RelativeLayout
+	WebView [label=WebView]
+	RelativeLayout -> WebView
+	Toolbar [label=Toolbar]
+	RelativeLayout -> Toolbar
+	"com.giobat.troviamoci.P2_ScreenSlidePagerActivity"
+	root -> "com.giobat.troviamoci.P2_ScreenSlidePagerActivity"
+	LinearLayout [label=LinearLayout]
+	"com.giobat.troviamoci.P2_ScreenSlidePagerActivity" -> LinearLayout
+	LinearLayout1 [label=LinearLayout]
+	LinearLayout -> LinearLayout1
+	Button [label=Button]
+	LinearLayout1 -> Button
+	Button1 [label=Button]
+	LinearLayout1 -> Button1
+	LinearLayout2 [label=LinearLayout]
+	LinearLayout -> LinearLayout2
+	Button2 [label=Button]
+	LinearLayout2 -> Button2
+	Button3 [label=Button]
+	LinearLayout2 -> Button3
+	ViewPager2 [label=ViewPager2]
+	LinearLayout -> ViewPager2
+	TabLayout [label=TabLayout]
+	LinearLayout -> TabLayout
+	"com.google.android.gms.common.api.GoogleApiActivity"
+	root -> "com.google.android.gms.common.api.GoogleApiActivity"
+	"com.google.android.gms.oss.licenses.OssLicensesActivity"
+	root -> "com.google.android.gms.oss.licenses.OssLicensesActivity"
+	"com.giobat.troviamoci.MainActivity"
+	root -> "com.giobat.troviamoci.MainActivity"
+	RelativeLayout1 [label=RelativeLayout]
+	"com.giobat.troviamoci.MainActivity" -> RelativeLayout1
+	View [label=View]
+	RelativeLayout1 -> View
+	ImageButton [label=ImageButton]
+	RelativeLayout1 -> ImageButton
+	LinearLayout3 [label=LinearLayout]
+	RelativeLayout1 -> LinearLayout3
+	RelativeLayout2 [label=RelativeLayout]
+	LinearLayout3 -> RelativeLayout2
+	Button4 [label=Button]
+	RelativeLayout2 -> Button4
+	GraphView [label=GraphView]
+	RelativeLayout2 -> GraphView
+	Button5 [label=Button]
+	RelativeLayout2 -> Button5
+	TextView [label=TextView]
+	RelativeLayout2 -> TextView
+	LinearLayout4 [label=LinearLayout]
+	RelativeLayout1 -> LinearLayout4
+	RelativeLayout3 [label=RelativeLayout]
+	LinearLayout4 -> RelativeLayout3
+	Button6 [label=Button]
+	RelativeLayout3 -> Button6
+	GraphView1 [label=GraphView]
+	RelativeLayout3 -> GraphView1
+	TextView1 [label=TextView]
+	RelativeLayout3 -> TextView1
+	Button7 [label=Button]
+	RelativeLayout3 -> Button7
+	AdView [label=AdView]
+	RelativeLayout1 -> AdView
+	CompassView [label=CompassView]
+	RelativeLayout1 -> CompassView
+	TextView2 [label=TextView]
+	RelativeLayout1 -> TextView2
+	MyGpsButtonView [label=MyGpsButtonView]
+	RelativeLayout1 -> MyGpsButtonView
+	Button8 [label=Button]
+	RelativeLayout1 -> Button8
+	LinearLayout5 [label=LinearLayout]
+	RelativeLayout1 -> LinearLayout5
+	LinearLayout6 [label=LinearLayout]
+	RelativeLayout1 -> LinearLayout6
+	LinearLayout7 [label=LinearLayout]
+	LinearLayout6 -> LinearLayout7
+	TextView3 [label=TextView]
+	LinearLayout7 -> TextView3
+	RelativeLayout4 [label=RelativeLayout]
+	LinearLayout7 -> RelativeLayout4
+	Button9 [label=Button]
+	RelativeLayout4 -> Button9
+	Button10 [label=Button]
+	RelativeLayout4 -> Button10
+	LinearLayout8 [label=LinearLayout]
+	RelativeLayout1 -> LinearLayout8
+	RelativeLayout5 [label=RelativeLayout]
+	LinearLayout8 -> RelativeLayout5
+	CheckBox [label=CheckBox]
+	RelativeLayout5 -> CheckBox
+	Button11 [label=Button]
+	RelativeLayout5 -> Button11
+	Button12 [label=Button]
+	RelativeLayout5 -> Button12
+	ScrollView [label=ScrollView]
+	RelativeLayout5 -> ScrollView
+	TextView4 [label=TextView]
+	ScrollView -> TextView4
+	TextView5 [label=TextView]
+	RelativeLayout5 -> TextView5
+	TextView6 [label=TextView]
+	RelativeLayout5 -> TextView6
+	Button13 [label=Button]
+	RelativeLayout1 -> Button13
+	LinearLayout9 [label=LinearLayout]
+	RelativeLayout1 -> LinearLayout9
+	LinearLayout10 [label=LinearLayout]
+	LinearLayout9 -> LinearLayout10
+	RelativeLayout6 [label=RelativeLayout]
+	LinearLayout10 -> RelativeLayout6
+	RelativeLayout7 [label=RelativeLayout]
+	RelativeLayout6 -> RelativeLayout7
+	TextView7 [label=TextView]
+	RelativeLayout7 -> TextView7
+	TextView8 [label=TextView]
+	RelativeLayout7 -> TextView8
+	ImageView [label=ImageView]
+	RelativeLayout7 -> ImageView
+	TextView9 [label=TextView]
+	RelativeLayout6 -> TextView9
+	RelativeLayout8 [label=RelativeLayout]
+	LinearLayout10 -> RelativeLayout8
+	TextView10 [label=TextView]
+	RelativeLayout8 -> TextView10
+	RelativeLayout9 [label=RelativeLayout]
+	RelativeLayout8 -> RelativeLayout9
+	TextView11 [label=TextView]
+	RelativeLayout9 -> TextView11
+	TextView12 [label=TextView]
+	RelativeLayout9 -> TextView12
+	TextView13 [label=TextView]
+	RelativeLayout9 -> TextView13
+	ImageView1 [label=ImageView]
+	RelativeLayout9 -> ImageView1
+	RelativeLayout10 [label=RelativeLayout]
+	LinearLayout10 -> RelativeLayout10
+	RelativeLayout11 [label=RelativeLayout]
+	RelativeLayout10 -> RelativeLayout11
+	RelativeLayout12 [label=RelativeLayout]
+	RelativeLayout11 -> RelativeLayout12
+	TextView14 [label=TextView]
+	RelativeLayout12 -> TextView14
+	TextView15 [label=TextView]
+	RelativeLayout11 -> TextView15
+	ImageView2 [label=ImageView]
+	RelativeLayout11 -> ImageView2
+	LinearLayout11 [label=LinearLayout]
+	RelativeLayout1 -> LinearLayout11
+	RelativeLayout13 [label=RelativeLayout]
+	LinearLayout11 -> RelativeLayout13
+	ScrollView1 [label=ScrollView]
+	RelativeLayout13 -> ScrollView1
+	TextView16 [label=TextView]
+	ScrollView1 -> TextView16
+	Button14 [label=Button]
+	RelativeLayout13 -> Button14
+	TextView17 [label=TextView]
+	RelativeLayout13 -> TextView17
+	TextView18 [label=TextView]
+	RelativeLayout13 -> TextView18
+	Button15 [label=Button]
+	RelativeLayout13 -> Button15
+	LinearLayout12 [label=LinearLayout]
+	RelativeLayout1 -> LinearLayout12
+	RelativeLayout14 [label=RelativeLayout]
+	LinearLayout12 -> RelativeLayout14
+	Button16 [label=Button]
+	RelativeLayout14 -> Button16
+	ProgressBar [label=ProgressBar]
+	RelativeLayout14 -> ProgressBar
+	ScrollView2 [label=ScrollView]
+	RelativeLayout14 -> ScrollView2
+	TextView19 [label=TextView]
+	ScrollView2 -> TextView19
+	TextView20 [label=TextView]
+	RelativeLayout14 -> TextView20
+	Button17 [label=Button]
+	RelativeLayout14 -> Button17
+	Button18 [label=Button]
+	RelativeLayout14 -> Button18
+	Button19 [label=Button]
+	RelativeLayout14 -> Button19
+	Button20 [label=Button]
+	RelativeLayout14 -> Button20
+	LinearLayout13 [label=LinearLayout]
+	RelativeLayout1 -> LinearLayout13
+	RelativeLayout15 [label=RelativeLayout]
+	LinearLayout13 -> RelativeLayout15
+	ScalebarView [label=ScalebarView]
+	RelativeLayout15 -> ScalebarView
+	TextView21 [label=TextView]
+	RelativeLayout15 -> TextView21
+	RelativeLayout16 [label=RelativeLayout]
+	RelativeLayout1 -> RelativeLayout16
+	ProgressBar1 [label=ProgressBar]
+	RelativeLayout16 -> ProgressBar1
+	TextView22 [label=TextView]
+	RelativeLayout16 -> TextView22
+	LinearLayout14 [label=LinearLayout]
+	RelativeLayout1 -> LinearLayout14
+	LinearLayout15 [label=LinearLayout]
+	LinearLayout14 -> LinearLayout15
+	TextView23 [label=TextView]
+	LinearLayout15 -> TextView23
+	TextView24 [label=TextView]
+	LinearLayout15 -> TextView24
+	Button21 [label=Button]
+	RelativeLayout1 -> Button21
+	TextView25 [label=TextView]
+	RelativeLayout1 -> TextView25
+	Menu [label=Menu]
+	"com.giobat.troviamoci.MainActivity" -> Menu
+	MenuItem [label=MenuItem]
+	Menu -> MenuItem
+	MenuItem1 [label=MenuItem]
+	Menu -> MenuItem1
+	MenuItem2 [label=MenuItem]
+	Menu -> MenuItem2
+	MenuItem3 [label=MenuItem]
+	Menu -> MenuItem3
+	"com.google.android.gms.ads.AdActivity"
+	root -> "com.google.android.gms.ads.AdActivity"
+	"com.giobat.troviamoci.ActivityMyPhotoShow"
+	root -> "com.giobat.troviamoci.ActivityMyPhotoShow"
+	RelativeLayout17 [label=RelativeLayout]
+	"com.giobat.troviamoci.ActivityMyPhotoShow" -> RelativeLayout17
+	FloatingActionButton [label=FloatingActionButton]
+	RelativeLayout17 -> FloatingActionButton
+	ScrollView3 [label=ScrollView]
+	RelativeLayout17 -> ScrollView3
+	TextView26 [label=TextView]
+	ScrollView3 -> TextView26
+	CardView [label=CardView]
+	RelativeLayout17 -> CardView
+	TouchImageView [label=TouchImageView]
+	CardView -> TouchImageView
+	"com.giobat.troviamoci.ActivityNewFileDialog"
+	root -> "com.giobat.troviamoci.ActivityNewFileDialog"
+	RelativeLayout18 [label=RelativeLayout]
+	"com.giobat.troviamoci.ActivityNewFileDialog" -> RelativeLayout18
+	RelativeLayout19 [label=RelativeLayout]
+	RelativeLayout18 -> RelativeLayout19
+	TextView27 [label=TextView]
+	RelativeLayout19 -> TextView27
+	Button22 [label=Button]
+	RelativeLayout19 -> Button22
+	Button23 [label=Button]
+	RelativeLayout19 -> Button23
+	ListView [label=ListView]
+	RelativeLayout18 -> ListView
+	RelativeLayout20 [label=RelativeLayout]
+	ListView -> RelativeLayout20
+	TextView28 [label=TextView]
+	RelativeLayout20 -> TextView28
+	TextView29 [label=TextView]
+	RelativeLayout20 -> TextView29
+	ImageView3 [label=ImageView]
+	RelativeLayout20 -> ImageView3
+	TextView30 [label=TextView]
+	RelativeLayout18 -> TextView30
+	TextView31 [label=TextView]
+	RelativeLayout18 -> TextView31
+	LinearLayout16 [label=LinearLayout]
+	RelativeLayout18 -> LinearLayout16
+	CoordinatorLayout [label=CoordinatorLayout]
+	LinearLayout16 -> CoordinatorLayout
+	LinearLayout17 [label=LinearLayout]
+	CoordinatorLayout -> LinearLayout17
+	Toolbar1 [label=Toolbar]
+	RelativeLayout18 -> Toolbar1
+	TextView32 [label=TextView]
+	RelativeLayout18 -> TextView32
+}
