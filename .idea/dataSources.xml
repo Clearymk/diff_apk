@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="apk_pure" uuid="4795923b-a317-4135-a8b6-3053217cafa3">
+    <data-source source="LOCAL" name="apk_pure" uuid="14e8275c-c0e5-4a2e-9db7-73a51e207df1">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:D:\PyCharm 2021.2.1\code\diff_apk\apk_pure.db</jdbc-url>
+      <jdbc-url>jdbc:sqlite:F:\PyCharm 2021.2.2\diff_apk\res\apk_pure.db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
       <libraries>
         <library>
