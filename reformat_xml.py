@@ -26,5 +26,5 @@ def format_xml(xml_path):
 
 
 if __name__ == "__main__":
-    format_xml("res/apk.xml")
+    format_xml("apk.xml")
     format_xml("res/base_apk.xml")

@@ -4,7 +4,6 @@ import os
 
 conn = sqlite3.connect("res/apk_pure.db")
 
-
 def get_stored_path():
     return "G:\\apk_pure\\result"
 
