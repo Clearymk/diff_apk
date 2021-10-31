@@ -9,6 +9,13 @@ class Edge:
         self.color = color
 
 
+class View:
+    def __init__(self, view_id, view_id_name):
+        self.view_id = view_id
+        self.view_id_name = view_id_name
+        self.before_view_id_name = ""
+
+
 class GUITree:
     def __init__(self, value):
         self.value = value
@@ -16,6 +23,7 @@ class GUITree:
         self.nodes = []
         self.handlers = []
         self.edges = []
+        self.view = View("", "")
 
     def print_tree(self):
         print(self.value)
@@ -38,6 +46,16 @@ class DrawGUIGraph:
 
     def get_view_node(self, view_node):
         tree = GUITree(value=view_node)
+
+        if view_node.attributes.__contains__("idName"):
+            view_id_name = view_node.getAttribute("idName")
+            view_id = view_node.getAttribute("id")
+            tree.view = View(view_id, view_id_name)
+
+            if view_node.attributes.__contains__("diff:update-attr"):
+                update_attr_data = view_node.getAttribute("diff:update-attr")
+                if update_attr_data.split(":")[0] == "idName":
+                    tree.view.before_view_id_name = tree.view.view_id + update_attr_data.split(":")[1]
 
         if view_node.attributes.__contains__("diff:delete"):
             tree.color = "red"
@@ -127,10 +145,27 @@ class DrawGUIGraph:
         graph.node(name=node_name, label=node_label, color=node.color)
         graph.edge(father_node_name, node_name)
 
+        self.add_view_id(node, graph, father_node_name)
+
         for child in node.nodes:
             self.add_view_node(child, graph, node_name)
         for handler in node.handlers:
             self.add_handler_node(handler, graph, node_name)
+
+    @staticmethod
+    def add_view_id(node, graph, node_name):
+        if node.view.view_id != "" or node.view.view_id_name != "":
+            view_node_name = node.view.view_id + node.view.view_id_name
+            if node.view.view_id_name == "":
+                graph.node(name=view_node_name, label=node.view.view_id)
+            else:
+                graph.node(name=view_node_name, label=node.view.view_id_name)
+
+            if node.view.before_view_id_name != "":
+                graph.edge(node_name, view_node_name, color="green")
+                graph.edge(node_name, node.view.before_view_id_name, color="red")
+            else:
+                graph.edge(node_name, view_node_name, color="black")
 
     def create_view_graph(self):
         dom_tree = dom.parse(self.xml_path)
@@ -144,6 +179,8 @@ class DrawGUIGraph:
         node_name = self.get_node_name(node_label)
         graph.node(name=node_name, label=node_label, color=tree.color)
         graph.edge(activity_name, node_name)
+
+        self.add_view_id(tree, graph, node_name)
 
         for edge in tree.edges:
             graph.edge(node_name, edge.value, color=edge.color)
