@@ -18,7 +18,7 @@ class GUIDiff:
     def start_diff(self):
         formatter = formatting.XMLFormatter(normalize=formatting.WS_BOTH, pretty_print=True)
         diffs = main.diff_files(self.xml_file_a, self.xml_file_b,
-                                diff_options={'F': 0.9, 'ratio_mode': 'accurate'},
+                                diff_options={'F': 0.5, 'ratio_mode': 'accurate'},
                                 formatter=formatter)
         with open(self.res_file_path, "w", encoding="utf8") as f:
             f.write(diffs)
