@@ -1,0 +1,2375 @@
+<GUIHierarchy app="com.anokha.launcher.apk">
+  <Activity name="com.anokha.entrypoint.DelaPinValidateActivity">
+    <View type="android.widget.ScrollView" id="2131296325" idName="activity_dela_validate_pin">
+      <Child>
+        <View type="android.widget.RelativeLayout" id="2131296936" idName="delamain_validate_pin_layout_cntr">
+          <Child>
+            <View type="android.widget.TextView" id="2131296934" idName="delamain_validate_pin_edit_perm_msg_text">
+            </View>
+            <View type="android.widget.RelativeLayout" id="2131296940" idName="delamain_validate_pin_value_cntr">
+              <Child>
+                <View type="android.widget.RelativeLayout" id="2131296945" idName="delamain_validate_pin_visibility_icon_cntr">
+                  <Child>
+                    <View type="android.widget.ImageView" id="2131296944" idName="delamain_validate_pin_visibility_icon">
+                    </View>
+                    <View type="android.widget.ImageView" id="2131296939" idName="delamain_validate_pin_valid_icon">
+                    </View>
+                  </Child>
+                </View>
+                <View type="com.anokha.modules.DelaEditText" id="2131296943" idName="delamain_validate_pin_value_text">
+                </View>
+                <View type="android.widget.TextView" id="2131296942" idName="delamain_validate_pin_value_label_gap">
+                </View>
+                <View type="android.widget.TextView" id="2131296935" idName="delamain_validate_pin_label_text">
+                </View>
+              </Child>
+            </View>
+            <View type="android.widget.RelativeLayout" id="2131296929" idName="delamain_validate_pin_action_cntr">
+              <Child>
+                <View type="android.widget.Button" id="2131296937" idName="delamain_validate_pin_ok_button">
+                </View>
+                <View type="android.widget.Button" id="2131296930" idName="delamain_validate_pin_cancel_edit_button">
+                </View>
+                <View type="android.widget.Button" id="2131296931" idName="delamain_validate_pin_cancel_validated_button">
+                </View>
+                <View type="android.widget.Button" id="2131296933" idName="delamain_validate_pin_edit_button">
+                </View>
+                <View type="android.widget.Button" id="2131296932" idName="delamain_validate_pin_clear_button">
+                </View>
+              </Child>
+            </View>
+            <View type="android.widget.TextView" id="2131296941" idName="delamain_validate_pin_value_gap3">
+            </View>
+            <View type="android.widget.TextView" id="-1" idName="NO_ID">
+            </View>
+            <View type="android.widget.RelativeLayout" id="2131296938" idName="delamain_validate_pin_title_cntr">
+              <Child>
+                <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+      </Child>
+    </View>
+  </Activity>
+  <Activity name="com.google.firebase.auth.internal.GenericIdpActivity">
+  </Activity>
+  <Activity name="com.anokha.delashare.DelaShare">
+    <View type="android.widget.RelativeLayout" id="2131297155" idName="delasharev2_main_root_layout">
+      <Child>
+        <View type="com.anokha.delashare.DelaShareSearch" id="2131297106" idName="delashare_search_box_container">
+          <Child>
+            <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="com.anokha.modules.DelaEditText" id="2131297105" idName="delashare_search_box">
+                  <EventAndHandler event="enter_text" handler="&lt;com.anokha.delashare.DelaShareSearch$a: void onTextChanged(java.lang.CharSequence,int,int,int)&gt;" />
+                  <EventAndHandler event="enter_text" handler="&lt;com.anokha.delashare.DelaShareSearch$a: void beforeTextChanged(java.lang.CharSequence,int,int,int)&gt;" />
+                  <EventAndHandler event="enter_text" handler="&lt;com.anokha.delashare.DelaShareSearch$a: void afterTextChanged(android.text.Editable)&gt;" />
+                </View>
+                <View type="android.widget.ImageView" id="2131297107" idName="delashare_search_button">
+                </View>
+                <View type="android.widget.ImageView" id="2131297108" idName="delashare_search_clear_button">
+                </View>
+              </Child>
+            </View>
+          </Child>
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+        </View>
+        <View type="com.anokha.delashare.DelaShareActionView" id="2131296946" idName="delashare_action_view_container">
+          <Child>
+            <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="android.widget.TextView" id="2131296954" idName="delashare_action_view_title_bar">
+                </View>
+                <View type="android.widget.TextView" id="2131296955" idName="delashare_action_view_title_bar2">
+                </View>
+                <View type="android.widget.RelativeLayout" id="2131296956" idName="delashare_action_view_title_container">
+                  <Child>
+                    <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                    </View>
+                    <View type="android.widget.TextView" id="2131296961" idName="delashare_action_view_wifi_send">
+                    </View>
+                    <View type="android.widget.TextView" id="2131296960" idName="delashare_action_view_title_text">
+                    </View>
+                    <View type="android.widget.TextView" id="2131296952" idName="delashare_action_view_share_item">
+                    </View>
+                    <View type="android.widget.TextView" id="2131296959" idName="delashare_action_view_title_gap4">
+                    </View>
+                    <View type="android.widget.TextView" id="2131296957" idName="delashare_action_view_title_gap2">
+                    </View>
+                    <View type="android.widget.TextView" id="2131296950" idName="delashare_action_view_move_to_folder">
+                    </View>
+                    <View type="android.widget.ImageView" id="2131296962" idName="delashare_action_view_wifi_send_image">
+                    </View>
+                    <View type="android.widget.ImageView" id="2131296953" idName="delashare_action_view_share_item_image">
+                    </View>
+                    <View type="android.widget.ImageView" id="2131296948" idName="delashare_action_view_delete_item_image">
+                    </View>
+                    <View type="android.widget.TextView" id="2131296947" idName="delashare_action_view_delete_item">
+                    </View>
+                    <View type="android.widget.ImageView" id="2131296951" idName="delashare_action_view_move_to_folder_image">
+                    </View>
+                    <View type="android.widget.TextView" id="2131296958" idName="delashare_action_view_title_gap3">
+                    </View>
+                  </Child>
+                </View>
+                <View type="androidx.recyclerview.widget.RecyclerView" id="2131296949" idName="delashare_action_view_entity_list">
+                </View>
+              </Child>
+            </View>
+          </Child>
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+        </View>
+        <View type="android.widget.RelativeLayout" id="2131297133" idName="delashare_wifi_list_root_layout">
+          <Child>
+            <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="android.widget.RelativeLayout" id="2131297132" idName="delashare_wifi_list_action_container">
+                  <Child>
+                    <View type="android.widget.Button" id="2131297135" idName="delashare_wifi_list_selection_cancel_button">
+                    </View>
+                    <View type="android.widget.Button" id="2131297137" idName="delashare_wifi_list_selection_rescan_button">
+                    </View>
+                    <View type="android.widget.Button" id="2131297136" idName="delashare_wifi_list_selection_ok_button">
+                    </View>
+                  </Child>
+                </View>
+                <View type="android.widget.TextView" id="2131297151" idName="delashare_wifi_select_wifi_title_gap">
+                </View>
+                <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                </View>
+                <View type="android.widget.RelativeLayout" id="2131297134" idName="delashare_wifi_list_select_wifi_title_container">
+                  <Child>
+                    <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                    </View>
+                  </Child>
+                </View>
+                <View type="android.widget.ListView" id="2131297126" idName="delashare_wifi_devices_list">
+                </View>
+              </Child>
+            </View>
+          </Child>
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+        </View>
+        <View type="com.anokha.delashare.DelaShareTitle" id="2131297115" idName="delashare_title_container">
+          <Child>
+            <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="android.widget.RelativeLayout" id="2131297156" idName="delasharev2_title_holder">
+                  <Child>
+                    <View type="android.widget.TextView" id="2131297117" idName="delashare_title_gap1">
+                    </View>
+                    <View type="android.widget.TextView" id="2131297125" idName="delashare_view_action_option_nonclickable">
+                      <EventAndHandler event="click" handler="&lt;com.anokha.delashare.DelaShareTitle$b: void onClick(android.view.View)&gt;" />
+                    </View>
+                    <View type="android.widget.RelativeLayout" id="2131297123" idName="delashare_title_wifi_receive_layout">
+                      <Child>
+                        <View type="android.widget.ImageView" id="2131297150" idName="delashare_wifi_receive_image">
+                        </View>
+                        <View type="android.widget.TextView" id="2131297149" idName="delashare_wifi_receive">
+                          <EventAndHandler event="click" handler="&lt;com.anokha.delashare.DelaShareTitle$b: void onClick(android.view.View)&gt;" />
+                        </View>
+                      </Child>
+                      <EventAndHandler event="click" handler="&lt;com.anokha.delashare.DelaShareTitle$c: void onClick(android.view.View)&gt;" />
+                    </View>
+                    <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                    </View>
+                    <View type="android.widget.TextView" id="2131297124" idName="delashare_view_action_option_clickable">
+                      <EventAndHandler event="click" handler="&lt;com.anokha.delashare.DelaShareTitle$b: void onClick(android.view.View)&gt;" />
+                    </View>
+                    <View type="android.widget.ImageView" id="2131297121" idName="delashare_title_menu">
+                      <EventAndHandler event="click" handler="&lt;com.anokha.delashare.DelaShareTitle$a: void onClick(android.view.View)&gt;" />
+                    </View>
+                    <View type="android.widget.TextView" id="2131297116" idName="delashare_title_free_memory">
+                      <EventAndHandler event="click" handler="&lt;com.anokha.delashare.DelaShareTitle$b: void onClick(android.view.View)&gt;" />
+                    </View>
+                    <View type="android.widget.TextView" id="2131297122" idName="delashare_title_total_memory">
+                      <EventAndHandler event="click" handler="&lt;com.anokha.delashare.DelaShareTitle$b: void onClick(android.view.View)&gt;" />
+                    </View>
+                    <View type="android.widget.TextView" id="2131297118" idName="delashare_title_gap2">
+                    </View>
+                    <View type="android.widget.TextView" id="2131297119" idName="delashare_title_gap3">
+                    </View>
+                  </Child>
+                </View>
+              </Child>
+            </View>
+          </Child>
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+        </View>
+        <View type="android.widget.RelativeLayout" id="2131297073" idName="delashare_media_item_view_layout">
+          <Child>
+            <View type="android.widget.RelativeLayout" id="2131297047" idName="delashare_media_item_edit_action_cntr">
+              <Child>
+                <View type="android.widget.ImageView" id="2131297050" idName="delashare_media_item_edit_rotate_button">
+                </View>
+                <View type="android.widget.ImageView" id="2131297049" idName="delashare_media_item_edit_doodle_button">
+                </View>
+              </Child>
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+            </View>
+            <View type="android.widget.RelativeLayout" id="2131297062" idName="delashare_media_item_title_container">
+              <Child>
+                <View type="android.widget.TextView" id="2131297066" idName="delashare_media_item_title_set_wallpaper">
+                </View>
+                <View type="android.widget.TextView" id="2131297064" idName="delashare_media_item_title_file_size">
+                </View>
+                <View type="android.widget.TextView" id="2131297120" idName="delashare_title_media_item_gap3">
+                </View>
+                <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                </View>
+                <View type="android.widget.TextView" id="2131297067" idName="delashare_media_item_title_video_time">
+                </View>
+                <View type="android.widget.ImageView" id="2131297056" idName="delashare_media_item_entity_edit_button">
+                </View>
+                <View type="android.widget.TextView" id="2131297063" idName="delashare_media_item_title_file_rename">
+                </View>
+                <View type="android.widget.TextView" id="2131297065" idName="delashare_media_item_title_gap1">
+                </View>
+                <View type="android.widget.ImageView" id="2131297061" idName="delashare_media_item_title_back_button">
+                </View>
+              </Child>
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+            </View>
+            <View type="android.widget.RelativeLayout" id="2131297051" idName="delashare_media_item_edit_save_action_cntr">
+              <Child>
+                <View type="android.widget.ImageView" id="2131297052" idName="delashare_media_item_edit_save_button">
+                </View>
+                <View type="android.widget.ImageView" id="2131297048" idName="delashare_media_item_edit_cancel_button">
+                </View>
+              </Child>
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+            </View>
+            <View type="com.anokha.modules.DelaEditableImageView" id="2131297053" idName="delashare_media_item_editable_image">
+            </View>
+            <View type="com.anokha.delashare.DelaShareMediaItemRecyclerView" id="2131297060" idName="delashare_media_item_scroll_list">
+            </View>
+          </Child>
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+        </View>
+        <View type="android.widget.RelativeLayout" id="2131297142" idName="delashare_wifi_progress_root_layout">
+          <Child>
+            <View type="android.widget.RelativeLayout" id="2131297148" idName="delashare_wifi_progress_view_cntr">
+              <Child>
+                <View type="android.widget.TextView" id="2131297147" idName="delashare_wifi_progress_title_gap">
+                </View>
+                <View type="android.widget.RelativeLayout" id="2131297140" idName="delashare_wifi_progress_item_section_container">
+                  <Child>
+                    <View type="android.widget.TextView" id="2131297131" idName="delashare_wifi_items_progress_text_gap">
+                    </View>
+                    <View type="android.widget.ProgressBar" id="2131297129" idName="delashare_wifi_items_progress_bar">
+                    </View>
+                    <View type="android.widget.TextView" id="2131297141" idName="delashare_wifi_progress_items_transfer_section_title">
+                    </View>
+                    <View type="android.widget.ImageView" id="2131297130" idName="delashare_wifi_items_progress_completed_image">
+                    </View>
+                  </Child>
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                </View>
+                <View type="android.widget.TextView" id="2131297143" idName="delashare_wifi_progress_section_gap">
+                </View>
+                <View type="android.widget.TextView" id="2131297146" idName="delashare_wifi_progress_title">
+                </View>
+                <View type="android.widget.RelativeLayout" id="2131297144" idName="delashare_wifi_progress_size_section_container">
+                  <Child>
+                    <View type="android.widget.TextView" id="2131297154" idName="delashare_wifi_size_progress_text_gap">
+                    </View>
+                    <View type="android.widget.TextView" id="2131297145" idName="delashare_wifi_progress_size_transfer_section_title">
+                    </View>
+                    <View type="android.widget.ProgressBar" id="2131297152" idName="delashare_wifi_size_progress_bar">
+                    </View>
+                    <View type="android.widget.ImageView" id="2131297153" idName="delashare_wifi_size_progress_completed_image">
+                    </View>
+                  </Child>
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                </View>
+                <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                </View>
+                <View type="android.widget.RelativeLayout" id="2131297139" idName="delashare_wifi_progress_action_container">
+                  <Child>
+                    <View type="android.widget.Button" id="2131297138" idName="delashare_wifi_progress_action_button">
+                    </View>
+                  </Child>
+                </View>
+              </Child>
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+            </View>
+          </Child>
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+        </View>
+        <View type="com.anokha.delashare.DelaShareDocList" id="2131296997" idName="delashare_doclist_main_container">
+          <Child>
+            <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="android.widget.TextView" id="2131297017" idName="delashare_doclist_top_bar">
+                </View>
+                <View type="com.anokha.delashare.DelaShareCategoryView" id="2131296995" idName="delashare_doclist_category_grid">
+                </View>
+                <View type="android.widget.TextView" id="2131297007" idName="delashare_doclist_new_docs_gap">
+                </View>
+                <View type="android.widget.RelativeLayout" id="2131297014" idName="delashare_doclist_new_docs_title_cntr">
+                  <Child>
+                    <View type="android.widget.Button" id="2131297003" idName="delashare_doclist_new_docs_delete_selected">
+                    </View>
+                    <View type="android.widget.Button" id="2131296998" idName="delashare_doclist_new_docs_clear_all">
+                    </View>
+                    <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                    </View>
+                  </Child>
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                </View>
+                <View type="android.widget.TextView" id="2131297009" idName="delashare_doclist_new_docs_list_view_gap">
+                </View>
+                <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                </View>
+                <View type="android.widget.Button" id="2131297016" idName="delashare_doclist_storage_permission_button">
+                </View>
+                <View type="android.widget.Button" id="2131297015" idName="delashare_doclist_no_docs_present_text">
+                </View>
+                <View type="android.widget.RelativeLayout" id="2131296996" idName="delashare_doclist_combined_entity_layout">
+                  <Child>
+                    <View type="com.anokha.delashare.DelaShareCombinedEntityView" id="2131296990" idName="delashare_combined_entity_list_grid">
+                    </View>
+                  </Child>
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                </View>
+                <View type="android.widget.ListView" id="2131297010" idName="delashare_doclist_new_docs_listview">
+                </View>
+              </Child>
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+            </View>
+          </Child>
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+        </View>
+        <View type="android.widget.RelativeLayout" id="2131297025" idName="delashare_entity_touch_action_layout">
+          <Child>
+            <View type="android.widget.RelativeLayout" id="2131297045" idName="delashare_entity_touch_document_wifi_send_layout">
+              <Child>
+                <View type="android.widget.TextView" id="2131297046" idName="delashare_entity_touch_document_wifi_send_name1">
+                </View>
+                <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                </View>
+                <View type="android.view.View" id="2131297043" idName="delashare_entity_touch_document_wifi_send_action_gap">
+                </View>
+                <View type="android.widget.ImageView" id="2131297044" idName="delashare_entity_touch_document_wifi_send_icon">
+                </View>
+                <View type="android.view.View" id="2131297259" idName="item_dela_launcher_entity_touch_action_separator">
+                </View>
+              </Child>
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+            </View>
+            <View type="android.widget.RelativeLayout" id="2131297032" idName="delashare_entity_touch_document_open_layout">
+              <Child>
+                <View type="android.view.View" id="2131297030" idName="delashare_entity_touch_document_open_action_gap">
+                </View>
+                <View type="android.widget.TextView" id="2131297033" idName="delashare_entity_touch_document_open_name1">
+                </View>
+                <View type="android.widget.ImageView" id="2131297031" idName="delashare_entity_touch_document_open_icon">
+                </View>
+                <View type="android.view.View" id="-1" idName="NO_ID">
+                </View>
+                <View type="android.widget.TextView" id="2131297034" idName="delashare_entity_touch_document_open_name2">
+                </View>
+              </Child>
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+            </View>
+            <View type="android.widget.RelativeLayout" id="2131297041" idName="delashare_entity_touch_document_share_layout">
+              <Child>
+                <View type="android.view.View" id="2131297039" idName="delashare_entity_touch_document_share_action_gap">
+                </View>
+                <View type="android.widget.ImageView" id="2131297040" idName="delashare_entity_touch_document_share_icon">
+                </View>
+                <View type="android.widget.TextView" id="2131297042" idName="delashare_entity_touch_document_share_name1">
+                </View>
+                <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                </View>
+              </Child>
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+            </View>
+            <View type="android.widget.RelativeLayout" id="2131297028" idName="delashare_entity_touch_document_delete_layout">
+              <Child>
+                <View type="android.widget.ImageView" id="2131297027" idName="delashare_entity_touch_document_delete_icon">
+                </View>
+                <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                </View>
+                <View type="android.widget.TextView" id="2131297029" idName="delashare_entity_touch_document_delete_name1">
+                </View>
+                <View type="android.view.View" id="2131297026" idName="delashare_entity_touch_document_delete_action_gap">
+                </View>
+                <View type="android.view.View" id="-1" idName="NO_ID">
+                </View>
+              </Child>
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+            </View>
+            <View type="android.widget.RelativeLayout" id="2131297037" idName="delashare_entity_touch_document_rename_layout">
+              <Child>
+                <View type="android.widget.ImageView" id="2131297036" idName="delashare_entity_touch_document_rename_icon">
+                </View>
+                <View type="android.widget.TextView" id="2131297038" idName="delashare_entity_touch_document_rename_name1">
+                </View>
+                <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                </View>
+                <View type="android.view.View" id="2131297035" idName="delashare_entity_touch_document_rename_action_gap">
+                </View>
+                <View type="android.view.View" id="-1" idName="NO_ID">
+                </View>
+              </Child>
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+            </View>
+          </Child>
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+        </View>
+        <View type="android.widget.RelativeLayout" id="2131297101" idName="delashare_move_to_folder_root_layout">
+          <Child>
+            <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="android.widget.RelativeLayout" id="2131297102" idName="delashare_move_to_folder_select_folder_container">
+                  <Child>
+                    <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                    </View>
+                  </Child>
+                </View>
+                <View type="android.widget.RelativeLayout" id="2131297086" idName="delashare_move_to_folder_action_button_container">
+                  <Child>
+                    <View type="android.widget.Button" id="2131297100" idName="delashare_move_to_folder_ok_button">
+                    </View>
+                    <View type="android.widget.Button" id="2131297087" idName="delashare_move_to_folder_cancel_button">
+                    </View>
+                  </Child>
+                </View>
+                <View type="android.widget.ListView" id="2131297091" idName="delashare_move_to_folder_list">
+                </View>
+                <View type="android.widget.RelativeLayout" id="2131297098" idName="delashare_move_to_folder_new_folder_container">
+                  <Child>
+                    <View type="android.widget.TextView" id="2131297089" idName="delashare_move_to_folder_create_image_postfix_gap">
+                    </View>
+                    <View type="android.widget.ImageView" id="2131297099" idName="delashare_move_to_folder_new_folder_image">
+                    </View>
+                    <View type="android.widget.TextView" id="2131297090" idName="delashare_move_to_folder_create_prefix_gap">
+                    </View>
+                    <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                    </View>
+                  </Child>
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                </View>
+                <View type="android.widget.TextView" id="2131297088" idName="delashare_move_to_folder_create_gap">
+                </View>
+                <View type="android.view.View" id="2131297103" idName="delashare_move_to_folder_top_gap">
+                </View>
+                <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                </View>
+              </Child>
+            </View>
+          </Child>
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+        </View>
+        <View type="android.widget.RelativeLayout" id="2131297114" idName="delashare_set_wallpaper_root_layout">
+          <Child>
+            <View type="android.view.View" id="2131297113" idName="delashare_set_wallpaper_phone_outline">
+            </View>
+            <View type="com.anokha.modules.DelaScalableOverlayImageView" id="2131297111" idName="delashare_set_wallpaper_image">
+            </View>
+            <View type="android.widget.RelativeLayout" id="2131297109" idName="delashare_set_wallpaper_action_cntr">
+              <Child>
+                <View type="android.widget.ImageView" id="2131297112" idName="delashare_set_wallpaper_ok_button">
+                </View>
+                <View type="android.widget.ImageView" id="2131297110" idName="delashare_set_wallpaper_cancel_button">
+                </View>
+              </Child>
+            </View>
+          </Child>
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+        </View>
+        <View type="android.widget.TextView" id="2131296994" idName="delashare_doc_activity_anim_view">
+        </View>
+        <View type="com.anokha.delashare.DelaShareMenu" id="2131297074" idName="delashare_menu_container">
+          <Child>
+            <View type="android.widget.RelativeLayout" id="2131297078" idName="delashare_menu_root_layout">
+              <Child>
+                <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+                  <Child>
+                    <View type="android.widget.TextView" id="2131297079" idName="delashare_menuitem_header_gap">
+                    </View>
+                    <View type="android.widget.RelativeLayout" id="2131297075" idName="delashare_menu_item_file_date_item_cntr">
+                      <Child>
+                        <View type="android.widget.ImageView" id="2131297080" idName="delashare_menuitem_show_file_date_button">
+                        </View>
+                        <View type="android.widget.TextView" id="2131297081" idName="delashare_menuitem_show_file_date_text">
+                        </View>
+                      </Child>
+                    </View>
+                    <View type="android.widget.RelativeLayout" id="2131297076" idName="delashare_menu_item_file_name_item_cntr">
+                      <Child>
+                        <View type="android.widget.ImageView" id="2131297082" idName="delashare_menuitem_show_file_name_button">
+                        </View>
+                        <View type="android.widget.TextView" id="2131297083" idName="delashare_menuitem_show_file_name_text">
+                        </View>
+                      </Child>
+                    </View>
+                    <View type="android.widget.RelativeLayout" id="2131297077" idName="delashare_menu_item_file_size_item_cntr">
+                      <Child>
+                        <View type="android.widget.TextView" id="2131297085" idName="delashare_menuitem_show_file_size_text">
+                        </View>
+                        <View type="android.widget.ImageView" id="2131297084" idName="delashare_menuitem_show_file_size_button">
+                        </View>
+                      </Child>
+                    </View>
+                  </Child>
+                </View>
+              </Child>
+            </View>
+          </Child>
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+        </View>
+      </Child>
+      <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$o: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+      <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$p: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+      <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$n: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+      <EventAndHandler event="touch" handler="&lt;com.anokha.delashare.DelaShare$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+    </View>
+  </Activity>
+  <Activity name="com.anokha.entrypoint.DelaSettingsSetGridCountActivity">
+    <View type="android.widget.RelativeLayout" id="2131296730" idName="dela_settings_set_grid_count_root_cntr">
+      <Child>
+        <View type="android.widget.TextView" id="2131296734" idName="dela_settings_set_grid_count_set_all_checkbox_text">
+        </View>
+        <View type="com.anokha.modules.DelaEntityView" id="2131296728" idName="dela_settings_set_grid_count_preview_grid">
+          <EventAndHandler event="item_click" handler="&lt;com.anokha.modules.DelaEntityView: void onItemClick(android.widget.AdapterView,android.view.View,int,long)&gt;" />
+          <EventAndHandler event="item_long_click" handler="&lt;com.anokha.modules.DelaEntityView: boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long)&gt;" />
+        </View>
+        <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+          <Child>
+            <View type="android.widget.Button" id="2131296721" idName="dela_settings_set_grid_count_cancel_button">
+            </View>
+            <View type="android.widget.Button" id="2131296731" idName="dela_settings_set_grid_count_save_button">
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.RelativeLayout" id="2131296726" idName="dela_settings_set_grid_count_number_picker_layout_cntr">
+          <Child>
+            <View type="android.widget.ImageButton" id="2131296725" idName="dela_settings_set_grid_count_increase_button">
+            </View>
+            <View type="android.widget.TextView" id="2131296722" idName="dela_settings_set_grid_count_cur_count_text">
+            </View>
+            <View type="android.widget.ImageButton" id="2131296723" idName="dela_settings_set_grid_count_decrease_button">
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.Spinner" id="2131296732" idName="dela_settings_set_grid_count_screen_dropdown">
+        </View>
+        <View type="android.view.View" id="2131296727" idName="dela_settings_set_grid_count_preview_gap">
+        </View>
+        <View type="android.widget.TextView" id="2131296729" idName="dela_settings_set_grid_count_preview_text">
+        </View>
+        <View type="android.widget.TextView" id="2131296724" idName="dela_settings_set_grid_count_desc_text">
+        </View>
+        <View type="android.widget.ImageView" id="2131296733" idName="dela_settings_set_grid_count_set_all_checkbox">
+        </View>
+        <View type="android.view.View" id="2131296720" idName="dela_settings_set_grid_count_action_gap">
+        </View>
+      </Child>
+    </View>
+  </Activity>
+  <Activity name="com.anokha.entrypoint.DelaShowAppsActivity">
+  </Activity>
+  <Activity name="com.anokha.entrypoint.DelaSettingsSetIconSizeActivity">
+    <View type="android.widget.RelativeLayout" id="2131296744" idName="dela_settings_set_icon_size_root_cntr">
+      <Child>
+        <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+          <Child>
+            <View type="android.widget.Button" id="2131296745" idName="dela_settings_set_icon_size_save_button">
+            </View>
+            <View type="android.widget.Button" id="2131296736" idName="dela_settings_set_icon_size_cancel_button">
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.TextView" id="2131296748" idName="dela_settings_set_icon_size_set_all_checkbox_text">
+        </View>
+        <View type="android.widget.GridView" id="2131296739" idName="dela_settings_set_icon_size_list_grid">
+        </View>
+        <View type="android.widget.TextView" id="2131296743" idName="dela_settings_set_icon_size_preview_text">
+        </View>
+        <View type="android.view.View" id="2131296738" idName="dela_settings_set_icon_size_list_gap">
+        </View>
+        <View type="android.view.View" id="2131296741" idName="dela_settings_set_icon_size_preview_gap">
+        </View>
+        <View type="com.anokha.modules.DelaEntityView" id="2131296742" idName="dela_settings_set_icon_size_preview_grid">
+          <EventAndHandler event="item_click" handler="&lt;com.anokha.modules.DelaEntityView: void onItemClick(android.widget.AdapterView,android.view.View,int,long)&gt;" />
+          <EventAndHandler event="item_long_click" handler="&lt;com.anokha.modules.DelaEntityView: boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long)&gt;" />
+        </View>
+        <View type="android.view.View" id="2131296735" idName="dela_settings_set_icon_size_action_gap">
+        </View>
+        <View type="android.widget.TextView" id="2131296737" idName="dela_settings_set_icon_size_desc_text">
+        </View>
+        <View type="android.widget.Spinner" id="2131296746" idName="dela_settings_set_icon_size_screen_dropdown">
+        </View>
+        <View type="android.widget.ImageView" id="2131296747" idName="dela_settings_set_icon_size_set_all_checkbox">
+        </View>
+        <View type="android.widget.TextView" id="2131296740" idName="dela_settings_set_icon_size_list_text">
+        </View>
+      </Child>
+    </View>
+  </Activity>
+  <Activity name="com.anokha.entrypoint.DelaSettingsHomeScreenClockActivity">
+    <View type="android.widget.RelativeLayout" id="2131296687" idName="dela_settings_homescreen_clock_root_cntr">
+      <Child>
+        <View type="android.widget.Spinner" id="2131296691" idName="dela_settings_homescreen_clock_time_format_dropdown">
+        </View>
+        <View type="android.view.View" id="2131296675" idName="dela_settings_homescreen_clock_action_gap">
+        </View>
+        <View type="android.view.View" id="2131296684" idName="dela_settings_homescreen_clock_preview_gap">
+        </View>
+        <View type="android.view.View" id="2131296693" idName="dela_settings_homescreen_clock_time_value_gap">
+        </View>
+        <View type="android.widget.TextView" id="2131296681" idName="dela_settings_homescreen_clock_desc_text">
+        </View>
+        <View type="android.widget.TextView" id="2131296692" idName="dela_settings_homescreen_clock_time_format_text">
+        </View>
+        <View type="android.widget.TextView" id="2131296679" idName="dela_settings_homescreen_clock_date_format_text">
+        </View>
+        <View type="android.widget.RelativeLayout" id="2131296677" idName="dela_settings_homescreen_clock_checkbox_cntr">
+          <Child>
+            <View type="android.widget.ImageView" id="2131296689" idName="dela_settings_homescreen_clock_show_clock_checkbox">
+            </View>
+            <View type="android.widget.TextView" id="2131296690" idName="dela_settings_homescreen_clock_show_clock_desc_text">
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.Spinner" id="2131296678" idName="dela_settings_homescreen_clock_date_format_dropdown">
+        </View>
+        <View type="android.widget.RelativeLayout" id="2131296685" idName="dela_settings_homescreen_clock_preview_grid">
+          <Child>
+            <View type="android.view.View" id="2131296682" idName="dela_settings_homescreen_clock_gap_1">
+            </View>
+            <View type="android.widget.TextView" id="2131296680" idName="dela_settings_homescreen_clock_date_value_text">
+            </View>
+            <View type="android.widget.TextView" id="2131296694" idName="dela_settings_homescreen_clock_time_value_text">
+            </View>
+            <View type="android.view.View" id="2131296683" idName="dela_settings_homescreen_clock_gap_2">
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.TextView" id="2131296686" idName="dela_settings_homescreen_clock_preview_text">
+        </View>
+        <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+          <Child>
+            <View type="android.widget.Button" id="2131296688" idName="dela_settings_homescreen_clock_save_button">
+            </View>
+            <View type="android.widget.Button" id="2131296676" idName="dela_settings_homescreen_clock_cancel_button">
+            </View>
+          </Child>
+        </View>
+      </Child>
+    </View>
+  </Activity>
+  <Activity name="b.i.b.g">
+  </Activity>
+  <Activity name="com.google.firebase.auth.internal.RecaptchaActivity">
+  </Activity>
+  <Activity name="com.anokha.delacontacts.DelaContactAddEditActivity">
+    <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+      <Child>
+        <View type="androidx.viewpager.widget.ViewPager" id="2131296775" idName="dela_single_contact_add_edit_tab_pager">
+        </View>
+        <View type="com.google.android.material.tabs.TabLayout" id="2131296774" idName="dela_single_contact_add_edit_tab_layout">
+        </View>
+      </Child>
+    </View>
+    <View type="android.view.Menu" id="-1" idName="NO_ID">
+      <Child>
+        <View type="android.view.MenuItem" id="2131296599" idName="dela_contact_select_accounts_menu">
+          <EventAndHandler event="item_selected" handler="&lt;b.b.c.j: boolean onMenuItemSelected(int,android.view.MenuItem)&gt;" />
+          <EventAndHandler event="item_selected" handler="&lt;com.anokha.delacontacts.DelaContactAddEditActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+        </View>
+        <View type="android.view.MenuItem" id="-1" idName="NO_ID">
+          <EventAndHandler event="item_selected" handler="&lt;b.b.c.j: boolean onMenuItemSelected(int,android.view.MenuItem)&gt;" />
+          <EventAndHandler event="item_selected" handler="&lt;com.anokha.delacontacts.DelaContactAddEditActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+        </View>
+      </Child>
+    </View>
+  </Activity>
+  <Activity name="com.anokha.entrypoint.DelaBrowser">
+    <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+      <Child>
+        <View type="android.widget.RelativeLayout" id="2131296519" idName="dela_browser_root_view">
+          <Child>
+            <View type="com.anokha.modules.DelaBrowserPreSearchView" id="2131296513" idName="dela_browser_presearch_view">
+              <Child>
+                <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+                  <Child>
+                    <View type="android.view.View" id="2131297401" idName="presearch_top_separator">
+                    </View>
+                    <View type="android.view.View" id="2131297386" idName="presearch_bottom_separator">
+                    </View>
+                    <View type="android.widget.ListView" id="2131297395" idName="presearch_history_scrollList">
+                    </View>
+                  </Child>
+                </View>
+              </Child>
+            </View>
+            <View type="com.anokha.modules.BrowserBookmarkView" id="2131296541" idName="dela_browser_search_history_view">
+              <Child>
+                <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+                  <Child>
+                    <View type="android.widget.RelativeLayout" id="2131296450" idName="dela_browser_bookmark_title_cntr">
+                      <Child>
+                        <View type="android.widget.TextView" id="2131296449" idName="dela_browser_bookmark_title">
+                        </View>
+                      </Child>
+                    </View>
+                    <View type="android.widget.RelativeLayout" id="2131296445" idName="dela_browser_bookmark_action_container">
+                      <Child>
+                        <View type="android.widget.Button" id="2131296447" idName="dela_browser_bookmark_clear_all_button">
+                        </View>
+                        <View type="android.widget.Button" id="2131296446" idName="dela_browser_bookmark_cancel_button">
+                        </View>
+                        <View type="android.widget.Button" id="2131296448" idName="dela_browser_bookmark_save_bookmark_button">
+                        </View>
+                      </Child>
+                      <EventAndHandler event="touch" handler="&lt;com.anokha.modules.BrowserBookmarkView$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                    </View>
+                    <View type="android.widget.RelativeLayout" id="2131296527" idName="dela_browser_save_bookmark_root_container">
+                      <Child>
+                        <View type="android.widget.RelativeLayout" id="2131296524" idName="dela_browser_save_bookmark_layout_container">
+                          <Child>
+                            <View type="android.widget.ListView" id="2131296525" idName="dela_browser_save_bookmark_list">
+                            </View>
+                            <View type="android.widget.RelativeLayout" id="2131296520" idName="dela_browser_save_bookmark_action_container">
+                              <Child>
+                                <View type="android.widget.Button" id="2131296526" idName="dela_browser_save_bookmark_ok_button">
+                                </View>
+                                <View type="android.widget.Button" id="2131296521" idName="dela_browser_save_bookmark_cancel_button">
+                                </View>
+                              </Child>
+                            </View>
+                            <View type="android.view.View" id="2131296529" idName="dela_browser_save_bookmark_title_separator">
+                            </View>
+                            <View type="android.widget.RelativeLayout" id="2131296528" idName="dela_browser_save_bookmark_title_cntr">
+                              <Child>
+                                <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                                </View>
+                              </Child>
+                            </View>
+                            <View type="android.view.View" id="2131296523" idName="dela_browser_save_bookmark_create_folder_separator">
+                            </View>
+                            <View type="android.widget.RelativeLayout" id="2131296522" idName="dela_browser_save_bookmark_create_folder_container">
+                              <Child>
+                                <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                                </View>
+                                <View type="android.widget.ImageView" id="-1" idName="NO_ID">
+                                </View>
+                              </Child>
+                              <EventAndHandler event="touch" handler="&lt;com.anokha.modules.BrowserBookmarkView$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                            </View>
+                            <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                            </View>
+                          </Child>
+                          <EventAndHandler event="touch" handler="&lt;com.anokha.modules.BrowserBookmarkView$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                        </View>
+                      </Child>
+                      <EventAndHandler event="touch" handler="&lt;com.anokha.modules.BrowserBookmarkView$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                    </View>
+                    <View type="android.view.View" id="2131296451" idName="dela_browser_bookmark_title_separator">
+                    </View>
+                    <View type="android.view.View" id="-1" idName="NO_ID">
+                    </View>
+                    <View type="android.widget.ListView" id="2131296452" idName="dela_browser_bookmark_url_history_scroll_list">
+                    </View>
+                    <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                    </View>
+                  </Child>
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.modules.BrowserBookmarkView$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                </View>
+              </Child>
+            </View>
+            <View type="com.anokha.entrypoint.DelaWebView" id="2131296551" idName="dela_browser_webview">
+            </View>
+            <View type="com.anokha.modules.BrowserBookmarkView" id="2131296550" idName="dela_browser_url_history_view">
+              <Child>
+                <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+                  <Child>
+                    <View type="android.widget.RelativeLayout" id="2131296450" idName="dela_browser_bookmark_title_cntr">
+                      <Child>
+                        <View type="android.widget.TextView" id="2131296449" idName="dela_browser_bookmark_title">
+                        </View>
+                      </Child>
+                    </View>
+                    <View type="android.widget.RelativeLayout" id="2131296445" idName="dela_browser_bookmark_action_container">
+                      <Child>
+                        <View type="android.widget.Button" id="2131296447" idName="dela_browser_bookmark_clear_all_button">
+                        </View>
+                        <View type="android.widget.Button" id="2131296446" idName="dela_browser_bookmark_cancel_button">
+                        </View>
+                        <View type="android.widget.Button" id="2131296448" idName="dela_browser_bookmark_save_bookmark_button">
+                        </View>
+                      </Child>
+                      <EventAndHandler event="touch" handler="&lt;com.anokha.modules.BrowserBookmarkView$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                    </View>
+                    <View type="android.widget.RelativeLayout" id="2131296527" idName="dela_browser_save_bookmark_root_container">
+                      <Child>
+                        <View type="android.widget.RelativeLayout" id="2131296524" idName="dela_browser_save_bookmark_layout_container">
+                          <Child>
+                            <View type="android.widget.ListView" id="2131296525" idName="dela_browser_save_bookmark_list">
+                            </View>
+                            <View type="android.widget.RelativeLayout" id="2131296520" idName="dela_browser_save_bookmark_action_container">
+                              <Child>
+                                <View type="android.widget.Button" id="2131296526" idName="dela_browser_save_bookmark_ok_button">
+                                </View>
+                                <View type="android.widget.Button" id="2131296521" idName="dela_browser_save_bookmark_cancel_button">
+                                </View>
+                              </Child>
+                            </View>
+                            <View type="android.view.View" id="2131296529" idName="dela_browser_save_bookmark_title_separator">
+                            </View>
+                            <View type="android.widget.RelativeLayout" id="2131296528" idName="dela_browser_save_bookmark_title_cntr">
+                              <Child>
+                                <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                                </View>
+                              </Child>
+                            </View>
+                            <View type="android.view.View" id="2131296523" idName="dela_browser_save_bookmark_create_folder_separator">
+                            </View>
+                            <View type="android.widget.RelativeLayout" id="2131296522" idName="dela_browser_save_bookmark_create_folder_container">
+                              <Child>
+                                <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                                </View>
+                                <View type="android.widget.ImageView" id="-1" idName="NO_ID">
+                                </View>
+                              </Child>
+                              <EventAndHandler event="touch" handler="&lt;com.anokha.modules.BrowserBookmarkView$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                            </View>
+                            <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                            </View>
+                          </Child>
+                          <EventAndHandler event="touch" handler="&lt;com.anokha.modules.BrowserBookmarkView$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                        </View>
+                      </Child>
+                      <EventAndHandler event="touch" handler="&lt;com.anokha.modules.BrowserBookmarkView$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                    </View>
+                    <View type="android.view.View" id="2131296451" idName="dela_browser_bookmark_title_separator">
+                    </View>
+                    <View type="android.view.View" id="-1" idName="NO_ID">
+                    </View>
+                    <View type="android.widget.ListView" id="2131296452" idName="dela_browser_bookmark_url_history_scroll_list">
+                    </View>
+                    <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                    </View>
+                  </Child>
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.modules.BrowserBookmarkView$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                </View>
+              </Child>
+            </View>
+            <View type="android.widget.ScrollView" id="2131296508" idName="dela_browser_load_error_root_cntr">
+              <Child>
+                <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+                  <Child>
+                    <View type="android.widget.TextView" id="2131296497" idName="dela_browser_load_error_cause_title_str">
+                    </View>
+                    <View type="android.view.View" id="2131296499" idName="dela_browser_load_error_gap_2">
+                    </View>
+                    <View type="android.widget.TextView" id="2131296512" idName="dela_browser_load_error_url_title_str">
+                    </View>
+                    <View type="android.widget.TextView" id="2131296505" idName="dela_browser_load_error_mitigation_title_str">
+                    </View>
+                    <View type="android.widget.TextView" id="2131296502" idName="dela_browser_load_error_mitigation_desc_line_1_text">
+                    </View>
+                    <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                    </View>
+                    <View type="android.widget.TextView" id="2131296496" idName="dela_browser_load_error_cause_desc_str">
+                    </View>
+                    <View type="android.widget.TextView" id="2131296503" idName="dela_browser_load_error_mitigation_desc_line_2_text">
+                    </View>
+                    <View type="android.view.View" id="2131296501" idName="dela_browser_load_error_gap_4">
+                    </View>
+                    <View type="android.widget.TextView" id="2131296506" idName="dela_browser_load_error_network_error_desc_str">
+                    </View>
+                    <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                    </View>
+                    <View type="android.widget.TextView" id="2131296511" idName="dela_browser_load_error_url_desc_str">
+                    </View>
+                    <View type="android.view.View" id="2131296500" idName="dela_browser_load_error_gap_3">
+                    </View>
+                    <View type="android.widget.TextView" id="2131296507" idName="dela_browser_load_error_network_error_title_str">
+                    </View>
+                    <View type="android.widget.TextView" id="2131296504" idName="dela_browser_load_error_mitigation_desc_str">
+                    </View>
+                    <View type="android.view.View" id="2131296498" idName="dela_browser_load_error_gap_1">
+                    </View>
+                    <View type="android.widget.RelativeLayout" id="2131296510" idName="dela_browser_load_error_title_cntr">
+                      <Child>
+                        <View type="android.widget.ImageView" id="2131296495" idName="dela_browser_load_error_browser_image">
+                        </View>
+                        <View type="android.view.View" id="2131296509" idName="dela_browser_load_error_start_gap">
+                        </View>
+                        <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                        </View>
+                      </Child>
+                    </View>
+                  </Child>
+                </View>
+              </Child>
+            </View>
+            <View type="com.anokha.modules.DelaBrowserReactiveSuggestions" id="2131296516" idName="dela_browser_reactive_suggestions">
+              <Child>
+                <View type="android.widget.RelativeLayout" id="2131296517" idName="dela_browser_reactive_suggestions_view">
+                  <Child>
+                    <View type="android.widget.GridView" id="2131296443" idName="dela_browser_autosuggest_list">
+                    </View>
+                    <View type="android.view.View" id="2131296444" idName="dela_browser_autosuggest_top_separator">
+                    </View>
+                  </Child>
+                </View>
+              </Child>
+            </View>
+            <View type="android.widget.RelativeLayout" id="2131296461" idName="dela_browser_footer_container">
+              <Child>
+                <View type="android.widget.ImageView" id="2131296362" idName="browser_footer_search_history_cntr">
+                </View>
+                <View type="android.widget.ImageView" id="2131296363" idName="browser_footer_tab">
+                </View>
+                <View type="android.widget.ImageView" id="2131296355" idName="browser_footer_browser_home_page">
+                </View>
+                <View type="android.widget.ImageView" id="2131296356" idName="browser_footer_footer_backward_cntr">
+                </View>
+                <View type="android.widget.ImageButton" id="2131296354" idName="browser_footer_backward">
+                </View>
+                <View type="android.widget.ImageView" id="2131296357" idName="browser_footer_footer_forward_cntr">
+                </View>
+                <View type="android.widget.ImageButton" id="2131296359" idName="browser_footer_forward">
+                </View>
+                <View type="android.widget.ImageView" id="2131296358" idName="browser_footer_footer_tab_cntr">
+                </View>
+                <View type="android.widget.ImageView" id="2131296364" idName="browser_footer_url_history">
+                </View>
+                <View type="android.widget.ImageView" id="2131296360" idName="browser_footer_save_info_cntr">
+                </View>
+                <View type="android.widget.ImageView" id="2131296365" idName="browser_footer_url_history_cntr">
+                </View>
+                <View type="android.widget.ImageView" id="2131296361" idName="browser_footer_search_history">
+                </View>
+              </Child>
+            </View>
+            <View type="android.widget.RelativeLayout" id="2131296515" idName="dela_browser_progress_bar_layout">
+              <Child>
+                <View type="android.widget.ProgressBar" id="2131296514" idName="dela_browser_progress_bar">
+                </View>
+              </Child>
+            </View>
+            <View type="android.widget.RelativeLayout" id="2131296536" idName="dela_browser_save_cur_url_root_cntr">
+              <Child>
+                <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+                  <Child>
+                    <View type="android.widget.RelativeLayout" id="2131296537" idName="dela_browser_save_cur_url_title_cntr">
+                      <Child>
+                        <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                        </View>
+                      </Child>
+                    </View>
+                    <View type="android.widget.RelativeLayout" id="2131296530" idName="dela_browser_save_cur_url_action_container">
+                      <Child>
+                        <View type="android.widget.Button" id="2131296535" idName="dela_browser_save_cur_url_ok_button">
+                        </View>
+                        <View type="android.widget.Button" id="2131296531" idName="dela_browser_save_cur_url_cancel_button">
+                        </View>
+                      </Child>
+                    </View>
+                    <View type="android.view.View" id="2131296538" idName="dela_browser_save_cur_url_title_separator">
+                    </View>
+                    <View type="android.widget.RelativeLayout" id="2131296532" idName="dela_browser_save_cur_url_create_folder_container">
+                      <Child>
+                        <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                        </View>
+                        <View type="android.widget.ImageView" id="-1" idName="NO_ID">
+                        </View>
+                      </Child>
+                    </View>
+                    <View type="android.view.View" id="2131296533" idName="dela_browser_save_cur_url_create_folder_separator">
+                    </View>
+                    <View type="android.widget.ListView" id="2131296534" idName="dela_browser_save_cur_url_folder_list">
+                    </View>
+                    <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                    </View>
+                  </Child>
+                </View>
+              </Child>
+            </View>
+            <View type="android.widget.TextView" id="2131296454" idName="dela_browser_download_animation_view">
+            </View>
+            <View type="android.widget.RelativeLayout" id="2131296492" idName="dela_browser_home_page_root_cntr">
+              <Child>
+                <View type="androidx.viewpager.widget.ViewPager" id="2131296471" idName="dela_browser_home_page_folder_tab_pager">
+                </View>
+                <View type="android.widget.RelativeLayout" id="2131296487" idName="dela_browser_home_page_new_book_fav_root_container">
+                  <Child>
+                    <View type="android.widget.RelativeLayout" id="2131296482" idName="dela_browser_home_page_new_book_fav_layout_container">
+                      <Child>
+                        <View type="android.view.View" id="2131296476" idName="dela_browser_home_page_new_book_fav_action_separator">
+                        </View>
+                        <View type="android.widget.RelativeLayout" id="2131296483" idName="dela_browser_home_page_new_book_fav_new_url_action_cntr">
+                          <Child>
+                            <View type="android.widget.TextView" id="2131296484" idName="dela_browser_home_page_new_book_fav_new_url_title_str">
+                            </View>
+                            <View type="com.anokha.modules.DelaEditText" id="2131296486" idName="dela_browser_home_page_new_book_fav_new_url_value_str">
+                            </View>
+                            <View type="android.view.View" id="2131296485" idName="dela_browser_home_page_new_book_fav_new_url_top_gap">
+                            </View>
+                          </Child>
+                        </View>
+                        <View type="android.view.View" id="-1" idName="NO_ID">
+                        </View>
+                        <View type="android.widget.RelativeLayout" id="2131296491" idName="dela_browser_home_page_new_book_fav_title_cntr">
+                          <Child>
+                            <View type="android.widget.TextView" id="2131296490" idName="dela_browser_home_page_new_book_fav_title">
+                            </View>
+                          </Child>
+                        </View>
+                        <View type="android.widget.RelativeLayout" id="2131296478" idName="dela_browser_home_page_new_book_fav_cur_url_action_cntr">
+                          <Child>
+                            <View type="android.widget.TextView" id="2131296481" idName="dela_browser_home_page_new_book_fav_cur_url_value_str">
+                            </View>
+                            <View type="android.view.View" id="2131296480" idName="dela_browser_home_page_new_book_fav_cur_url_top_gap">
+                            </View>
+                            <View type="android.widget.TextView" id="2131296479" idName="dela_browser_home_page_new_book_fav_cur_url_title_str">
+                            </View>
+                          </Child>
+                        </View>
+                        <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                        </View>
+                        <View type="android.widget.RelativeLayout" id="2131296475" idName="dela_browser_home_page_new_book_fav_action_container">
+                          <Child>
+                            <View type="android.widget.Button" id="2131296489" idName="dela_browser_home_page_new_book_fav_select_current_url_button">
+                            </View>
+                            <View type="android.widget.Button" id="2131296477" idName="dela_browser_home_page_new_book_fav_cancel_button">
+                            </View>
+                            <View type="android.widget.Button" id="2131296488" idName="dela_browser_home_page_new_book_fav_save_in_folder_button">
+                            </View>
+                          </Child>
+                        </View>
+                      </Child>
+                    </View>
+                  </Child>
+                </View>
+                <View type="android.widget.TextView" id="2131296466" idName="dela_browser_home_page_folder_action_gap">
+                </View>
+                <View type="android.widget.RelativeLayout" id="2131296464" idName="dela_browser_home_page_favorites_list_cntr">
+                  <Child>
+                    <View type="android.widget.TextView" id="2131296494" idName="dela_browser_home_page_top_pages_gap">
+                    </View>
+                    <View type="com.anokha.entrypoint.DelaHomeFavoritesEntityGrid" id="2131296493" idName="dela_browser_home_page_top_entity_list">
+                      <EventAndHandler event="item_click" handler="&lt;com.anokha.entrypoint.DelaHomeFavoritesEntityGrid: void onItemClick(android.widget.AdapterView,android.view.View,int,long)&gt;" />
+                      <EventAndHandler event="item_long_click" handler="&lt;com.anokha.entrypoint.DelaHomeFavoritesEntityGrid: boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long)&gt;" />
+                    </View>
+                    <View type="android.widget.TextView" id="2131296465" idName="dela_browser_home_page_favorites_title">
+                    </View>
+                  </Child>
+                </View>
+                <View type="com.google.android.material.tabs.TabLayout" id="2131296470" idName="dela_browser_home_page_folder_tab_layout">
+                </View>
+              </Child>
+            </View>
+            <View type="com.anokha.modules.BrowserTabbedView" id="2131296549" idName="dela_browser_tab_view">
+              <Child>
+                <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+                  <Child>
+                    <View type="android.widget.RelativeLayout" id="2131296370" idName="browser_tab_footer_container">
+                      <Child>
+                        <View type="android.widget.RelativeLayout" id="2131296367" idName="browser_tab_add_new_container">
+                          <Child>
+                            <View type="android.widget.ImageView" id="2131296366" idName="browser_tab_add_new">
+                            </View>
+                            <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                            </View>
+                          </Child>
+                        </View>
+                        <View type="android.widget.RelativeLayout" id="2131296369" idName="browser_tab_delete_all_container">
+                          <Child>
+                            <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                            </View>
+                            <View type="android.widget.ImageView" id="2131296368" idName="browser_tab_delete_all">
+                            </View>
+                          </Child>
+                        </View>
+                        <View type="android.widget.TextView" id="2131296371" idName="browser_tab_footer_gap">
+                        </View>
+                      </Child>
+                    </View>
+                    <View type="androidx.recyclerview.widget.RecyclerView" id="2131296372" idName="browser_tab_scroll_list">
+                    </View>
+                    <View type="android.widget.TextView" id="2131296545" idName="dela_browser_tab_footer_gap">
+                    </View>
+                  </Child>
+                </View>
+              </Child>
+            </View>
+            <View type="android.widget.RelativeLayout" id="2131296463" idName="dela_browser_header">
+              <Child>
+                <View type="android.widget.ImageView" id="2131296455" idName="dela_browser_favorites_button">
+                </View>
+                <View type="android.widget.RelativeLayout" id="2131296539" idName="dela_browser_search_box_container">
+                  <Child>
+                    <View type="android.widget.ImageView" id="2131296453" idName="dela_browser_clear_butten">
+                    </View>
+                    <View type="android.widget.ImageView" id="2131296518" idName="dela_browser_refresh">
+                    </View>
+                    <View type="android.widget.ImageView" id="2131296540" idName="dela_browser_search_button">
+                    </View>
+                    <View type="android.widget.ImageView" id="2131296542" idName="dela_browser_ssl">
+                    </View>
+                    <View type="com.anokha.modules.DelaEditText" id="2131297225" idName="id_dela_browser_query_text_box">
+                    </View>
+                  </Child>
+                </View>
+                <View type="android.widget.TextView" id="2131296456" idName="dela_browser_favorites_button_cntr">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.RelativeLayout" id="2131296462" idName="dela_browser_full_screen_video_layout">
+          <Child>
+            <View type="android.view.View" id="-1" idName="NO_ID">
+            </View>
+          </Child>
+        </View>
+      </Child>
+    </View>
+  </Activity>
+  <Activity name="com.anokha.delacontacts.DelaContactDetailsActivity">
+    <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+      <Child>
+        <View type="com.google.android.material.tabs.TabLayout" id="2131296777" idName="dela_single_contact_tab_details_layout">
+        </View>
+        <View type="com.google.android.material.floatingactionbutton.FloatingActionButton" id="2131296590" idName="dela_contact_details_edit_contact_button">
+        </View>
+        <View type="androidx.viewpager.widget.ViewPager" id="2131296776" idName="dela_single_contact_details_tab_pager">
+        </View>
+      </Child>
+    </View>
+    <View type="android.view.Menu" id="-1" idName="NO_ID">
+      <Child>
+        <View type="android.view.MenuItem" id="2131296589" idName="dela_contact_details_delete_menu">
+          <EventAndHandler event="item_selected" handler="&lt;b.b.c.j: boolean onMenuItemSelected(int,android.view.MenuItem)&gt;" />
+          <EventAndHandler event="item_selected" handler="&lt;com.anokha.delacontacts.DelaContactDetailsActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+        </View>
+        <View type="android.view.MenuItem" id="2131296591" idName="dela_contact_details_edit_menu">
+          <EventAndHandler event="item_selected" handler="&lt;b.b.c.j: boolean onMenuItemSelected(int,android.view.MenuItem)&gt;" />
+          <EventAndHandler event="item_selected" handler="&lt;com.anokha.delacontacts.DelaContactDetailsActivity: boolean onOptionsItemSelected(android.view.MenuItem)&gt;" />
+        </View>
+      </Child>
+    </View>
+  </Activity>
+  <Activity name="com.anokha.entrypoint.DelaSettingsIconThemeActivity">
+    <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+      <Child>
+        <View type="android.view.View" id="2131296763" idName="dela_settings_set_icon_theme_action_gap">
+        </View>
+        <View type="com.anokha.modules.DelaEntityView" id="2131296769" idName="dela_settings_set_icon_theme_preview_grid">
+          <EventAndHandler event="item_click" handler="&lt;com.anokha.modules.DelaEntityView: void onItemClick(android.widget.AdapterView,android.view.View,int,long)&gt;" />
+          <EventAndHandler event="item_long_click" handler="&lt;com.anokha.modules.DelaEntityView: boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long)&gt;" />
+        </View>
+        <View type="android.view.View" id="2131296768" idName="dela_settings_set_icon_theme_preview_gap">
+        </View>
+        <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+          <Child>
+            <View type="android.widget.Button" id="2131296771" idName="dela_settings_set_icon_theme_save_button">
+            </View>
+            <View type="android.widget.Button" id="2131296764" idName="dela_settings_set_icon_theme_cancel_button">
+            </View>
+            <View type="android.widget.Button" id="2131296773" idName="dela_settings_set_icon_theme_search_icon_pack_button">
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.TextView" id="2131296770" idName="dela_settings_set_icon_theme_preview_text">
+        </View>
+        <View type="android.widget.TextView" id="2131296765" idName="dela_settings_set_icon_theme_desc_text">
+        </View>
+        <View type="android.widget.RelativeLayout" id="2131296767" idName="dela_settings_set_icon_theme_picker_layout_cntr">
+          <Child>
+            <View type="android.widget.TextView" id="2131296766" idName="dela_settings_set_icon_theme_installed_themes_text">
+            </View>
+            <View type="android.widget.Spinner" id="2131296772" idName="dela_settings_set_icon_theme_screen_dropdown">
+            </View>
+          </Child>
+        </View>
+      </Child>
+    </View>
+  </Activity>
+  <Activity name="b.b.c.j">
+  </Activity>
+  <Activity name="com.anokha.entrypoint.DelaMain">
+    <View type="android.widget.RelativeLayout" id="2131296656" idName="dela_main_activity_container">
+      <Child>
+        <View type="android.widget.RelativeLayout" id="2131296635" idName="dela_homescreen_clock_cntr_layout">
+          <Child>
+            <View type="android.view.View" id="2131296638" idName="dela_homescreen_clock_gap_2">
+            </View>
+            <View type="android.view.View" id="2131296637" idName="dela_homescreen_clock_gap_1">
+            </View>
+            <View type="android.widget.TextView" id="2131296639" idName="dela_homescreen_clock_time_value_text">
+            </View>
+            <View type="android.widget.TextView" id="2131296636" idName="dela_homescreen_clock_date_value_text">
+            </View>
+          </Child>
+        </View>
+        <View type="com.anokha.entrypoint.LauncherSearch" id="2131296870" idName="delamain_search_box">
+          <Child>
+            <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+                  <Child>
+                    <View type="android.widget.ImageView" id="2131296873" idName="delamain_searchbox_search_button">
+                    </View>
+                    <View type="com.anokha.modules.DelaEditText" id="2131296871" idName="delamain_search_textbox">
+                    </View>
+                    <View type="android.widget.ImageView" id="2131296872" idName="delamain_searchbox_abort_button">
+                    </View>
+                  </Child>
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.TextView" id="2131296667" idName="dela_pinned_app_margin_view_start">
+        </View>
+        <View type="android.widget.RelativeLayout" id="2131296875" idName="delamain_searchbox_topbar_button_layout_cntr">
+          <Child>
+            <View type="android.widget.ImageView" id="2131296874" idName="delamain_searchbox_topbar_button_image">
+            </View>
+          </Child>
+          <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$e: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$j: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+        </View>
+        <View type="android.widget.RelativeLayout" id="2131296877" idName="delamain_searchbox_topbar_folder_name_cntr">
+          <Child>
+            <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="android.widget.TextView" id="2131296879" idName="delamain_searchbox_topbar_gf_edit_gap">
+                </View>
+                <View type="android.widget.TextView" id="2131296878" idName="delamain_searchbox_topbar_folder_name_text">
+                </View>
+                <View type="android.widget.ImageView" id="2131296876" idName="delamain_searchbox_topbar_edit_gf_button">
+                </View>
+              </Child>
+            </View>
+          </Child>
+          <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$e: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$j: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+        </View>
+        <View type="android.widget.RelativeLayout" id="2131296649" idName="dela_launcher_entity_touch_container_layout">
+          <Child>
+            <View type="androidx.recyclerview.widget.RecyclerView" id="2131296648" idName="dela_launcher_entity_touch_action_list">
+            </View>
+          </Child>
+          <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$e: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$j: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+        </View>
+        <View type="com.anokha.entrypoint.DelaSuggestionView" id="2131297295" idName="launcher_suggestions">
+          <Child>
+            <View type="android.widget.LinearLayout" id="2131296778" idName="dela_suggestion_view_root_cntr">
+              <Child>
+                <View type="android.view.View" id="-1" idName="NO_ID">
+                </View>
+                <View type="android.widget.ScrollView" id="2131296670" idName="dela_reactive_suggestion_view">
+                  <Child>
+                    <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+                      <Child>
+                        <View type="android.widget.LinearLayout" id="2131296645" idName="dela_launcher_autosuggest_section_container">
+                          <Child>
+                            <View type="android.widget.GridView" id="2131296644" idName="dela_launcher_autosuggest_listview">
+                            </View>
+                          </Child>
+                        </View>
+                        <View type="android.widget.LinearLayout" id="2131296436" idName="dela_app_list_view_cntr">
+                          <Child>
+                            <View type="android.view.View" id="2131296439" idName="dela_autosuggest_separating_line">
+                            </View>
+                            <View type="android.widget.GridView" id="2131296643" idName="dela_launcher_app_suggestion_list">
+                            </View>
+                          </Child>
+                        </View>
+                      </Child>
+                    </View>
+                  </Child>
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaSuggestionView$a: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                </View>
+              </Child>
+            </View>
+          </Child>
+          <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$e: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$j: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+        </View>
+        <View type="android.widget.RelativeLayout" id="2131296435" idName="dela_app_host_widget_root_layout">
+          <Child>
+            <View type="android.widget.RelativeLayout" id="2131296433" idName="dela_app_host_widget_button_cntr">
+              <Child>
+                <View type="android.widget.TextView" id="2131296794" idName="delamain_app_host_widget_disable_widget">
+                </View>
+                <View type="android.widget.TextView" id="2131296795" idName="delamain_app_host_widget_open_app">
+                </View>
+              </Child>
+              <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$e: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$j: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+            </View>
+            <View type="android.widget.RelativeLayout" id="2131296434" idName="dela_app_host_widget_frame_cntr">
+              <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$e: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$j: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+            </View>
+          </Child>
+          <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$e: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$j: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+        </View>
+        <View type="android.widget.RelativeLayout" id="2131296820" idName="delamain_first_run_demo_root_layout">
+          <Child>
+            <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="android.view.View" id="-1" idName="NO_ID">
+                </View>
+                <View type="android.widget.RelativeLayout" id="2131296806" idName="delamain_first_run_demo_cntr_title_layout">
+                  <Child>
+                    <View type="android.widget.TextView" id="2131296825" idName="delamain_first_run_demo_title_text">
+                    </View>
+                    <View type="android.widget.ImageView" id="-1" idName="NO_ID">
+                    </View>
+                  </Child>
+                </View>
+                <View type="android.widget.RelativeLayout" id="2131296817" idName="delamain_first_run_demo_icon_layout">
+                  <Child>
+                    <View type="android.widget.TextView" id="2131296818" idName="delamain_first_run_demo_icon_text">
+                    </View>
+                    <View type="android.widget.ImageView" id="2131296816" idName="delamain_first_run_demo_icon_image">
+                    </View>
+                  </Child>
+                </View>
+                <View type="android.widget.RelativeLayout" id="2131296813" idName="delamain_first_run_demo_contact_layout_cntr">
+                  <Child>
+                    <View type="android.widget.RelativeLayout" id="2131296807" idName="delamain_first_run_demo_contact_call_cntr">
+                      <Child>
+                        <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                        </View>
+                        <View type="android.widget.ImageView" id="2131296808" idName="delamain_first_run_demo_contact_call_image">
+                        </View>
+                      </Child>
+                    </View>
+                    <View type="android.view.View" id="2131296812" idName="delamain_first_run_demo_contact_details_item_border">
+                    </View>
+                    <View type="android.view.View" id="2131296809" idName="delamain_first_run_demo_contact_call_item_border">
+                    </View>
+                    <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+                      <Child>
+                        <View type="android.widget.ImageView" id="2131296814" idName="delamain_first_run_demo_contact_sms_image">
+                        </View>
+                        <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                        </View>
+                      </Child>
+                    </View>
+                    <View type="android.widget.RelativeLayout" id="2131296810" idName="delamain_first_run_demo_contact_details_cntr">
+                      <Child>
+                        <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                        </View>
+                        <View type="android.widget.ImageView" id="2131296811" idName="delamain_first_run_demo_contact_details_image">
+                        </View>
+                      </Child>
+                    </View>
+                  </Child>
+                </View>
+                <View type="android.widget.RelativeLayout" id="2131296805" idName="delamain_first_run_demo_action_cntr">
+                  <Child>
+                    <View type="android.widget.TextView" id="2131296821" idName="delamain_first_run_demo_skip_button">
+                    </View>
+                    <View type="android.widget.TextView" id="2131296822" idName="delamain_first_run_demo_time_remaining_button">
+                    </View>
+                  </Child>
+                </View>
+                <View type="android.widget.TextView" id="2131296815" idName="delamain_first_run_demo_demo_text">
+                </View>
+                <View type="android.view.View" id="2131296824" idName="delamain_first_run_demo_title_separator">
+                </View>
+                <View type="android.widget.TextView" id="2131296819" idName="delamain_first_run_demo_image_gap">
+                </View>
+                <View type="android.widget.TextView" id="2131296823" idName="delamain_first_run_demo_title_gap">
+                </View>
+              </Child>
+            </View>
+            <View type="android.widget.RelativeLayout" id="2131296804" idName="delamain_first_run_bottom_layout">
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.RelativeLayout" id="2131296904" idName="delamain_single_gf_entity_list_root_cntr">
+          <Child>
+            <View type="android.widget.RelativeLayout" id="2131296903" idName="delamain_single_gf_entity_list_layout">
+              <Child>
+                <View type="android.widget.RelativeLayout" id="2131296905" idName="delamain_single_gf_entity_list_title_cntr">
+                  <Child>
+                    <View type="android.widget.TextView" id="2131296906" idName="delamain_single_gf_entity_list_title_text">
+                    </View>
+                  </Child>
+                </View>
+                <View type="android.view.View" id="2131296898" idName="delamain_single_gf_entity_edit_action_gap_separator">
+                </View>
+                <View type="android.widget.RelativeLayout" id="2131296897" idName="delamain_single_gf_entity_edit_action_cntr">
+                  <Child>
+                    <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+                      <Child>
+                        <View type="android.widget.TextView" id="2131296899" idName="delamain_single_gf_entity_edit_gap">
+                        </View>
+                        <View type="android.widget.ImageView" id="2131296900" idName="delamain_single_gf_entity_edit_gf_button">
+                        </View>
+                        <View type="android.widget.TextView" id="2131296901" idName="delamain_single_gf_entity_edit_gf_edit_action_text">
+                        </View>
+                      </Child>
+                    </View>
+                  </Child>
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$e: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$j: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                </View>
+                <View type="com.anokha.modules.DelaEntityView" id="2131296902" idName="delamain_single_gf_entity_list_grid">
+                  <EventAndHandler event="item_click" handler="&lt;com.anokha.modules.DelaEntityView: void onItemClick(android.widget.AdapterView,android.view.View,int,long)&gt;" />
+                  <EventAndHandler event="item_long_click" handler="&lt;com.anokha.modules.DelaEntityView: boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long)&gt;" />
+                </View>
+              </Child>
+              <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$e: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$j: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+            </View>
+          </Child>
+          <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$e: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$j: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+        </View>
+        <View type="android.widget.TextView" id="2131296666" idName="dela_pinned_app_margin_view_end">
+        </View>
+        <View type="com.anokha.entrypoint.DelaPinnedApps" id="2131296668" idName="dela_pinned_apps_layout">
+          <EventAndHandler event="item_click" handler="&lt;com.anokha.entrypoint.DelaPinnedApps: void onItemClick(android.widget.AdapterView,android.view.View,int,long)&gt;" />
+          <EventAndHandler event="item_long_click" handler="&lt;com.anokha.entrypoint.DelaPinnedApps: boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long)&gt;" />
+        </View>
+        <View type="com.anokha.entrypoint.DelaPages" id="2131296869" idName="delamain_pager_layout">
+          <Child>
+            <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="com.anokha.entrypoint.DelaAppDragLayer" id="2131296427" idName="dela_app_drag_view">
+                  <Child>
+                    <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+                      <Child>
+                        <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+                          <Child>
+                            <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+                              <Child>
+                                <View type="android.widget.TextView" id="2131296419" idName="dela_app_drag_layer_add_to_favorites_textview">
+                                </View>
+                                <View type="android.widget.TextView" id="2131296422" idName="dela_app_drag_layer_textgap2">
+                                </View>
+                                <View type="android.widget.TextView" id="2131296420" idName="dela_app_drag_layer_appinfo_textview">
+                                </View>
+                                <View type="android.widget.TextView" id="2131296421" idName="dela_app_drag_layer_textgap1">
+                                </View>
+                                <View type="android.widget.TextView" id="2131296423" idName="dela_app_drag_layer_uninstall_textview">
+                                </View>
+                              </Child>
+                            </View>
+                            <View type="android.widget.RelativeLayout" id="2131296424" idName="dela_app_drag_top_bar_action_container">
+                              <Child>
+                                <View type="androidx.recyclerview.widget.RecyclerView" id="2131296779" idName="delamain_app_drag_top_bar_folder_list">
+                                </View>
+                                <View type="androidx.recyclerview.widget.RecyclerView" id="2131296780" idName="delamain_app_drag_top_bar_group_list">
+                                </View>
+                                <View type="android.widget.ImageView" id="2131296425" idName="dela_app_drag_top_bar_action_move_left">
+                                </View>
+                                <View type="android.widget.TextView" id="2131296781" idName="delamain_app_drag_top_bar_move_title_text">
+                                </View>
+                                <View type="android.widget.ImageView" id="2131296426" idName="dela_app_drag_top_bar_action_move_right">
+                                </View>
+                              </Child>
+                            </View>
+                          </Child>
+                        </View>
+                      </Child>
+                    </View>
+                  </Child>
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$e: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                  <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$j: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+                </View>
+                <View type="androidx.viewpager.widget.ViewPager" id="2131297531" idName="view_launcher_view_pager_view_pager">
+                </View>
+                <View type="android.widget.LinearLayout" id="2131297530" idName="view_launcher_view_pager_indicator">
+                  <Child>
+                    <View type="android.widget.ImageView" id="2131297528" idName="view_launcher_view_pager_contact_item">
+                    </View>
+                    <View type="android.widget.ImageView" id="2131297529" idName="view_launcher_view_pager_home_item">
+                    </View>
+                    <View type="android.widget.ImageView" id="2131297527" idName="view_launcher_view_pager_apps_item">
+                    </View>
+                  </Child>
+                </View>
+              </Child>
+            </View>
+          </Child>
+          <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$e: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$j: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+        </View>
+        <View type="com.anokha.modules.PreSearchView" id="2131297396" idName="presearch_list_container">
+          <Child>
+            <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="android.view.View" id="2131297401" idName="presearch_top_separator">
+                </View>
+                <View type="android.widget.ListView" id="2131297395" idName="presearch_history_scrollList">
+                </View>
+                <View type="android.view.View" id="2131297386" idName="presearch_bottom_separator">
+                </View>
+              </Child>
+              <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$e: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+              <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$j: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+            </View>
+          </Child>
+          <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$e: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+          <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$j: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+        </View>
+      </Child>
+      <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$e: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+      <EventAndHandler event="touch" handler="&lt;com.anokha.entrypoint.DelaMain$j: boolean onTouch(android.view.View,android.view.MotionEvent)&gt;" />
+    </View>
+  </Activity>
+  <Activity name="b.m.b.p">
+  </Activity>
+  <Activity name="com.anokha.entrypoint.DelaPinCreateActivity">
+    <View type="android.widget.ScrollView" id="2131296324" idName="activity_dela_set_pin">
+      <Child>
+        <View type="android.widget.RelativeLayout" id="2131296886" idName="delamain_set_pin_layout_cntr">
+          <Child>
+            <View type="android.widget.RelativeLayout" id="2131296882" idName="delamain_set_pin_action_cntr">
+              <Child>
+                <View type="android.widget.Button" id="2131296887" idName="delamain_set_pin_ok_button">
+                </View>
+                <View type="android.widget.Button" id="2131296883" idName="delamain_set_pin_cancel_button">
+                </View>
+              </Child>
+            </View>
+            <View type="android.widget.RelativeLayout" id="2131296889" idName="delamain_set_pin_value_cntr">
+              <Child>
+                <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+                  <Child>
+                    <View type="android.widget.ImageView" id="2131296893" idName="delamain_set_pin_value_match_icon">
+                    </View>
+                  </Child>
+                </View>
+                <View type="com.anokha.modules.DelaEditText" id="2131296894" idName="delamain_set_pin_value_text">
+                </View>
+                <View type="android.widget.RelativeLayout" id="2131296896" idName="delamain_set_pin_visibility_icon_cntr">
+                  <Child>
+                    <View type="android.widget.ImageView" id="2131296895" idName="delamain_set_pin_visibility_icon">
+                    </View>
+                  </Child>
+                </View>
+                <View type="android.widget.TextView" id="2131296885" idName="delamain_set_pin_label_text">
+                </View>
+                <View type="android.widget.TextView" id="2131296880" idName="delamain_set_confirm_pin_label_text">
+                </View>
+                <View type="com.anokha.modules.DelaEditText" id="2131296881" idName="delamain_set_confirm_pin_value_text">
+                </View>
+                <View type="android.widget.TextView" id="2131296891" idName="delamain_set_pin_value_gap2">
+                </View>
+                <View type="android.widget.TextView" id="2131296890" idName="delamain_set_pin_value_gap1">
+                </View>
+              </Child>
+            </View>
+            <View type="android.widget.RelativeLayout" id="2131296888" idName="delamain_set_pin_title_cntr">
+              <Child>
+                <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                </View>
+              </Child>
+            </View>
+            <View type="android.widget.TextView" id="2131296884" idName="delamain_set_pin_description_msg_text">
+            </View>
+            <View type="android.widget.TextView" id="2131296892" idName="delamain_set_pin_value_gap3">
+            </View>
+            <View type="android.widget.TextView" id="-1" idName="NO_ID">
+            </View>
+          </Child>
+        </View>
+      </Child>
+    </View>
+  </Activity>
+  <Activity name="com.anokha.entrypoint.DelaLauncherSettingsActivity">
+    <View type="android.widget.RelativeLayout" id="2131296654" idName="dela_launcher_settings_root_cntr">
+      <Child>
+        <View type="android.widget.ListView" id="2131296653" idName="dela_launcher_settings_list_view">
+        </View>
+        <View type="android.view.View" id="2131296655" idName="dela_launcher_settings_title_gap">
+        </View>
+      </Child>
+    </View>
+  </Activity>
+  <Activity name="com.anokha.entrypoint.DelaSettingsSetEntityProtectActivity">
+    <View type="androidx.core.widget.NestedScrollView" id="-1" idName="NO_ID">
+      <Child>
+        <View type="android.widget.LinearLayout" id="2131296717" idName="dela_settings_set_entity_prot_root_cntr">
+          <Child>
+            <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="android.widget.TextView" id="2131296848" idName="delamain_gf_entity_list_action_keyboard_gap">
+                </View>
+                <View type="android.widget.TextView" id="2131296719" idName="dela_settings_set_entity_prot_title_gap">
+                </View>
+                <View type="android.widget.RelativeLayout" id="2131296704" idName="dela_settings_set_entity_prot_entity_list_cntr">
+                  <Child>
+                    <View type="android.widget.TextView" id="2131296709" idName="dela_settings_set_entity_prot_entity_list_title_gap">
+                    </View>
+                    <View type="android.widget.RelativeLayout" id="2131296705" idName="dela_settings_set_entity_prot_entity_list_search_cntr">
+                      <Child>
+                        <View type="com.anokha.modules.DelaEditText" id="2131296707" idName="dela_settings_set_entity_prot_entity_list_search_text_box">
+                        </View>
+                        <View type="android.widget.ImageView" id="2131296703" idName="dela_settings_set_entity_prot_entity_list_clear_image_button">
+                        </View>
+                        <View type="android.widget.ImageView" id="2131296706" idName="dela_settings_set_entity_prot_entity_list_search_image_button">
+                        </View>
+                      </Child>
+                    </View>
+                    <View type="android.widget.RelativeLayout" id="2131296708" idName="dela_settings_set_entity_prot_entity_list_title_cntr">
+                      <Child>
+                        <View type="android.widget.TextView" id="2131296710" idName="dela_settings_set_entity_prot_entity_list_title_str">
+                        </View>
+                      </Child>
+                    </View>
+                    <View type="android.widget.ListView" id="2131296711" idName="dela_settings_set_entity_prot_entity_list_view">
+                    </View>
+                  </Child>
+                </View>
+                <View type="android.widget.TextView" id="2131296849" idName="delamain_gf_entity_list_action_keyboard_line">
+                </View>
+                <View type="android.widget.RelativeLayout" id="2131296695" idName="dela_settings_set_entity_prot_action_button_cntr">
+                  <Child>
+                    <View type="android.widget.Button" id="2131296699" idName="dela_settings_set_entity_prot_cancel_button">
+                    </View>
+                    <View type="android.widget.Button" id="2131296700" idName="dela_settings_set_entity_prot_clear_pin_button">
+                    </View>
+                    <View type="android.widget.Button" id="2131296718" idName="dela_settings_set_entity_prot_save_button">
+                    </View>
+                  </Child>
+                </View>
+                <View type="android.widget.TextView" id="2131296696" idName="dela_settings_set_entity_prot_action_gap">
+                </View>
+                <View type="android.widget.RelativeLayout" id="2131296716" idName="dela_settings_set_entity_prot_radio_group_cntr">
+                  <Child>
+                    <View type="android.widget.RelativeLayout" id="2131296714" idName="dela_settings_set_entity_prot_groups_radio_button_cntr">
+                      <Child>
+                        <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                        </View>
+                        <View type="android.widget.ImageView" id="2131296715" idName="dela_settings_set_entity_prot_groups_radio_button_image">
+                        </View>
+                      </Child>
+                    </View>
+                    <View type="android.widget.RelativeLayout" id="2131296701" idName="dela_settings_set_entity_prot_contacts_radio_button_cntr">
+                      <Child>
+                        <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                        </View>
+                        <View type="android.widget.ImageView" id="2131296702" idName="dela_settings_set_entity_prot_contacts_radio_button_image">
+                        </View>
+                      </Child>
+                    </View>
+                    <View type="android.widget.RelativeLayout" id="2131296712" idName="dela_settings_set_entity_prot_folder_radio_button_cntr">
+                      <Child>
+                        <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                        </View>
+                        <View type="android.widget.ImageView" id="2131296713" idName="dela_settings_set_entity_prot_folder_radio_button_image">
+                        </View>
+                      </Child>
+                    </View>
+                    <View type="android.widget.RelativeLayout" id="2131296697" idName="dela_settings_set_entity_prot_apps_radio_button_cntr">
+                      <Child>
+                        <View type="android.widget.ImageView" id="2131296698" idName="dela_settings_set_entity_prot_apps_radio_button_image">
+                        </View>
+                        <View type="android.widget.TextView" id="-1" idName="NO_ID">
+                        </View>
+                      </Child>
+                    </View>
+                  </Child>
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+      </Child>
+    </View>
+  </Activity>
+  <Activity name="com.anokha.entrypoint.DelaFirstRunActivity">
+    <View type="android.widget.RelativeLayout" id="2131296326" idName="activity_first_run">
+      <Child>
+        <View type="android.widget.RelativeLayout" id="2131296665" idName="dela_permission_request_title_cntr">
+          <Child>
+            <View type="android.widget.TextView" id="-1" idName="NO_ID">
+            </View>
+            <View type="android.widget.ImageView" id="2131296664" idName="dela_permission_request_app_image">
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+          <Child>
+            <View type="androidx.recyclerview.widget.RecyclerView" id="2131297414" idName="rv_permission_list">
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.RelativeLayout" id="2131296663" idName="dela_permission_request_action_cntr">
+          <Child>
+            <View type="android.widget.Button" id="2131296611" idName="dela_first_run_perm_action_button">
+              <EventAndHandler event="click" handler="&lt;com.anokha.entrypoint.DelaFirstRunActivity: void onClick(android.view.View)&gt;" />
+            </View>
+          </Child>
+        </View>
+      </Child>
+    </View>
+  </Activity>
+  <Activity name="com.anokha.entrypoint.DelaSettingsSetIconStyleActivity">
+    <View type="android.widget.RelativeLayout" id="2131296755" idName="dela_settings_set_icon_style_root_cntr">
+      <Child>
+        <View type="android.view.View" id="2131296760" idName="dela_settings_set_icon_style_style_list_gap">
+        </View>
+        <View type="android.widget.Spinner" id="2131296757" idName="dela_settings_set_icon_style_screen_dropdown">
+        </View>
+        <View type="android.widget.GridView" id="2131296761" idName="dela_settings_set_icon_style_style_list_grid">
+        </View>
+        <View type="android.widget.TextView" id="2131296759" idName="dela_settings_set_icon_style_set_all_checkbox_text">
+        </View>
+        <View type="android.widget.ImageView" id="2131296758" idName="dela_settings_set_icon_style_set_all_checkbox">
+        </View>
+        <View type="android.widget.TextView" id="2131296762" idName="dela_settings_set_icon_style_style_list_text">
+        </View>
+        <View type="android.widget.TextView" id="2131296751" idName="dela_settings_set_icon_style_desc_text">
+        </View>
+        <View type="android.view.View" id="2131296752" idName="dela_settings_set_icon_style_preview_gap">
+        </View>
+        <View type="android.widget.TextView" id="2131296754" idName="dela_settings_set_icon_style_preview_text">
+        </View>
+        <View type="android.view.View" id="2131296749" idName="dela_settings_set_icon_style_action_gap">
+        </View>
+        <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+          <Child>
+            <View type="android.widget.Button" id="2131296756" idName="dela_settings_set_icon_style_save_button">
+            </View>
+            <View type="android.widget.Button" id="2131296750" idName="dela_settings_set_icon_style_cancel_button">
+            </View>
+          </Child>
+        </View>
+        <View type="com.anokha.modules.DelaEntityView" id="2131296753" idName="dela_settings_set_icon_style_preview_grid">
+          <EventAndHandler event="item_click" handler="&lt;com.anokha.modules.DelaEntityView: void onItemClick(android.widget.AdapterView,android.view.View,int,long)&gt;" />
+          <EventAndHandler event="item_long_click" handler="&lt;com.anokha.modules.DelaEntityView: boolean onItemLongClick(android.widget.AdapterView,android.view.View,int,long)&gt;" />
+        </View>
+      </Child>
+    </View>
+  </Activity>
+  <Activity name="com.google.android.gms.common.api.GoogleApiActivity">
+  </Activity>
+  <Activity name="com.anokha.entrypoint.DelaFakeHomeActivity">
+  </Activity>
+  <Dialog name="android.app.AlertDialog" allocLineNumber="5" allocStmt="$r11 = virtualinvoke $r4.&lt;android.app.AlertDialog$Builder: android.app.AlertDialog create()&gt;()" allocMethod="&lt;com.anokha.delacontacts.DelaContactAddEditActivity: void onBackPressed()&gt;">
+    <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+      <Child>
+        <View type="android.widget.FrameLayout" id="16908895" idName="customPanel">
+          <Child>
+            <View type="android.widget.FrameLayout" id="16908331" idName="custom">
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908890" idName="buttonPanel">
+          <Child>
+            <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="android.widget.LinearLayout" id="16908891" idName="leftSpacer">
+                </View>
+                <View type="android.widget.Button" id="16908315" idName="button3">
+                  <EventAndHandler event="click" handler="&lt;FakeName_58: void onClick(android.view.View)&gt;" realHandler="&lt;c.b.c.k: void onClick(android.content.DialogInterface,int)&gt;" />
+                </View>
+                <View type="android.widget.Button" id="16908314" idName="button2">
+                  <EventAndHandler event="click" handler="&lt;FakeName_62: void onClick(android.view.View)&gt;" realHandler="&lt;c.b.c.j: void onClick(android.content.DialogInterface,int)&gt;" />
+                </View>
+                <View type="android.widget.Button" id="16908313" idName="button1">
+                  <EventAndHandler event="click" handler="&lt;FakeName_66: void onClick(android.view.View)&gt;" realHandler="&lt;c.b.c.l: void onClick(android.content.DialogInterface,int)&gt;" />
+                </View>
+                <View type="android.widget.LinearLayout" id="16908892" idName="rightSpacer">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908886" idName="topPanel">
+          <Child>
+            <View type="android.widget.ImageView" id="16908889" idName="titleDivider">
+            </View>
+            <View type="android.widget.LinearLayout" id="16908887" idName="title_template">
+              <Child>
+                <View type="com.android.internal.widget.DialogTitle" id="16908888" idName="alertTitle">
+                </View>
+                <View type="android.widget.ImageView" id="16908294" idName="icon">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908893" idName="contentPanel">
+          <Child>
+            <View type="android.widget.ScrollView" id="16908894" idName="scrollView">
+              <Child>
+                <View type="android.widget.TextView" id="16908299" idName="message">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+      </Child>
+    </View>
+  </Dialog>
+  <Dialog name="android.app.AlertDialog" allocLineNumber="4" allocStmt="$r9 = virtualinvoke $r2.&lt;android.app.AlertDialog$Builder: android.app.AlertDialog create()&gt;()" allocMethod="&lt;com.anokha.delashare.DelaShare$t: void run()&gt;">
+    <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+      <Child>
+        <View type="android.widget.LinearLayout" id="16908890" idName="buttonPanel">
+          <Child>
+            <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="android.widget.Button" id="16908313" idName="button1">
+                  <EventAndHandler event="click" handler="&lt;FakeName_34: void onClick(android.view.View)&gt;" realHandler="&lt;com.anokha.delashare.DelaShare$t$a: void onClick(android.content.DialogInterface,int)&gt;" />
+                </View>
+                <View type="android.widget.LinearLayout" id="16908891" idName="leftSpacer">
+                </View>
+                <View type="android.widget.Button" id="16908314" idName="button2">
+                </View>
+                <View type="android.widget.Button" id="16908315" idName="button3">
+                </View>
+                <View type="android.widget.LinearLayout" id="16908892" idName="rightSpacer">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908886" idName="topPanel">
+          <Child>
+            <View type="android.widget.ImageView" id="16908889" idName="titleDivider">
+            </View>
+            <View type="android.widget.LinearLayout" id="16908887" idName="title_template">
+              <Child>
+                <View type="android.widget.ImageView" id="16908294" idName="icon">
+                </View>
+                <View type="com.android.internal.widget.DialogTitle" id="16908888" idName="alertTitle">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908893" idName="contentPanel">
+          <Child>
+            <View type="android.widget.ScrollView" id="16908894" idName="scrollView">
+              <Child>
+                <View type="android.widget.TextView" id="16908299" idName="message">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.FrameLayout" id="16908895" idName="customPanel">
+          <Child>
+            <View type="android.widget.FrameLayout" id="16908331" idName="custom">
+            </View>
+          </Child>
+        </View>
+      </Child>
+    </View>
+  </Dialog>
+  <Dialog name="android.app.AlertDialog" allocLineNumber="-1" allocStmt="$r8 = virtualinvoke $r1.&lt;android.app.AlertDialog$Builder: android.app.AlertDialog create()&gt;()" allocMethod="&lt;com.anokha.delashare.DelaShare: void D()&gt;">
+    <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+      <Child>
+        <View type="android.widget.LinearLayout" id="16908886" idName="topPanel">
+          <Child>
+            <View type="android.widget.ImageView" id="16908889" idName="titleDivider">
+            </View>
+            <View type="android.widget.LinearLayout" id="16908887" idName="title_template">
+              <Child>
+                <View type="com.android.internal.widget.DialogTitle" id="16908888" idName="alertTitle">
+                </View>
+                <View type="android.widget.ImageView" id="16908294" idName="icon">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.FrameLayout" id="16908895" idName="customPanel">
+          <Child>
+            <View type="android.widget.FrameLayout" id="16908331" idName="custom">
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908890" idName="buttonPanel">
+          <Child>
+            <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="android.widget.Button" id="16908315" idName="button3">
+                </View>
+                <View type="android.widget.LinearLayout" id="16908891" idName="leftSpacer">
+                </View>
+                <View type="android.widget.Button" id="16908314" idName="button2">
+                  <EventAndHandler event="click" handler="&lt;FakeName_42: void onClick(android.view.View)&gt;" realHandler="&lt;com.anokha.delashare.DelaShare$d: void onClick(android.content.DialogInterface,int)&gt;" />
+                </View>
+                <View type="android.widget.Button" id="16908313" idName="button1">
+                  <EventAndHandler event="click" handler="&lt;FakeName_38: void onClick(android.view.View)&gt;" realHandler="&lt;com.anokha.delashare.DelaShare$e: void onClick(android.content.DialogInterface,int)&gt;" />
+                </View>
+                <View type="android.widget.LinearLayout" id="16908892" idName="rightSpacer">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908893" idName="contentPanel">
+          <Child>
+            <View type="android.widget.ScrollView" id="16908894" idName="scrollView">
+              <Child>
+                <View type="android.widget.TextView" id="16908299" idName="message">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+      </Child>
+    </View>
+  </Dialog>
+  <Dialog name="android.app.AlertDialog" allocLineNumber="32" allocStmt="$r19 = virtualinvoke $r13.&lt;android.app.AlertDialog$Builder: android.app.AlertDialog create()&gt;()" allocMethod="&lt;com.anokha.services.DelaShareTransferService$a: void handleMessage(android.os.Message)&gt;">
+    <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+      <Child>
+        <View type="android.widget.LinearLayout" id="16908886" idName="topPanel">
+          <Child>
+            <View type="android.widget.LinearLayout" id="16908887" idName="title_template">
+              <Child>
+                <View type="com.android.internal.widget.DialogTitle" id="16908888" idName="alertTitle">
+                </View>
+                <View type="android.widget.ImageView" id="16908294" idName="icon">
+                </View>
+              </Child>
+            </View>
+            <View type="android.widget.ImageView" id="16908889" idName="titleDivider">
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.FrameLayout" id="16908895" idName="customPanel">
+          <Child>
+            <View type="android.widget.FrameLayout" id="16908331" idName="custom">
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908890" idName="buttonPanel">
+          <Child>
+            <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="android.widget.LinearLayout" id="16908892" idName="rightSpacer">
+                </View>
+                <View type="android.widget.Button" id="16908315" idName="button3">
+                </View>
+                <View type="android.widget.Button" id="16908314" idName="button2">
+                  <EventAndHandler event="click" handler="&lt;FakeName_46: void onClick(android.view.View)&gt;" realHandler="&lt;c.b.e.x2: void onClick(android.content.DialogInterface,int)&gt;" />
+                </View>
+                <View type="android.widget.LinearLayout" id="16908891" idName="leftSpacer">
+                </View>
+                <View type="android.widget.Button" id="16908313" idName="button1">
+                  <EventAndHandler event="click" handler="&lt;FakeName_50: void onClick(android.view.View)&gt;" realHandler="&lt;c.b.e.y2: void onClick(android.content.DialogInterface,int)&gt;" />
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908893" idName="contentPanel">
+          <Child>
+            <View type="android.widget.ScrollView" id="16908894" idName="scrollView">
+              <Child>
+                <View type="android.widget.TextView" id="16908299" idName="message">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+      </Child>
+    </View>
+  </Dialog>
+  <Dialog name="android.app.AlertDialog" allocLineNumber="5" allocStmt="$r17 = virtualinvoke $r3.&lt;android.app.AlertDialog$Builder: android.app.AlertDialog create()&gt;()" allocMethod="&lt;com.anokha.delashare.DelaShare: void L(c.b.e.g3,int)&gt;">
+    <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+      <Child>
+        <View type="android.widget.LinearLayout" id="16908886" idName="topPanel">
+          <Child>
+            <View type="android.widget.ImageView" id="16908889" idName="titleDivider">
+            </View>
+            <View type="android.widget.LinearLayout" id="16908887" idName="title_template">
+              <Child>
+                <View type="android.widget.ImageView" id="16908294" idName="icon">
+                </View>
+                <View type="com.android.internal.widget.DialogTitle" id="16908888" idName="alertTitle">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908890" idName="buttonPanel">
+          <Child>
+            <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="android.widget.LinearLayout" id="16908892" idName="rightSpacer">
+                </View>
+                <View type="android.widget.Button" id="16908313" idName="button1">
+                  <EventAndHandler event="click" handler="&lt;FakeName_92: void onClick(android.view.View)&gt;" realHandler="&lt;com.anokha.delashare.DelaShare$l: void onClick(android.content.DialogInterface,int)&gt;" />
+                </View>
+                <View type="android.widget.Button" id="16908315" idName="button3">
+                </View>
+                <View type="android.widget.Button" id="16908314" idName="button2">
+                  <EventAndHandler event="click" handler="&lt;FakeName_88: void onClick(android.view.View)&gt;" realHandler="&lt;com.anokha.delashare.DelaShare$k: void onClick(android.content.DialogInterface,int)&gt;" />
+                </View>
+                <View type="android.widget.LinearLayout" id="16908891" idName="leftSpacer">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.FrameLayout" id="16908895" idName="customPanel">
+          <Child>
+            <View type="android.widget.FrameLayout" id="16908331" idName="custom">
+              <Child>
+                <View type="android.widget.EditText" id="-1" idName="NO_ID">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908893" idName="contentPanel">
+          <Child>
+            <View type="android.widget.ScrollView" id="16908894" idName="scrollView">
+              <Child>
+                <View type="android.widget.TextView" id="16908299" idName="message">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+      </Child>
+    </View>
+  </Dialog>
+  <Dialog name="android.app.AlertDialog" allocLineNumber="3" allocStmt="$r15 = virtualinvoke $r12.&lt;android.app.AlertDialog$Builder: android.app.AlertDialog create()&gt;()" allocMethod="&lt;com.anokha.entrypoint.DelaMain: void onStart()&gt;">
+    <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+      <Child>
+        <View type="android.widget.LinearLayout" id="16908893" idName="contentPanel">
+          <Child>
+            <View type="android.widget.ScrollView" id="16908894" idName="scrollView">
+              <Child>
+                <View type="android.widget.TextView" id="16908299" idName="message">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908890" idName="buttonPanel">
+          <Child>
+            <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="android.widget.Button" id="16908314" idName="button2">
+                  <EventAndHandler event="click" handler="&lt;FakeName_102: void onClick(android.view.View)&gt;" realHandler="&lt;c.b.b.h.u: void onClick(android.content.DialogInterface,int)&gt;" />
+                </View>
+                <View type="android.widget.LinearLayout" id="16908891" idName="leftSpacer">
+                </View>
+                <View type="android.widget.LinearLayout" id="16908892" idName="rightSpacer">
+                </View>
+                <View type="android.widget.Button" id="16908313" idName="button1">
+                  <EventAndHandler event="click" handler="&lt;FakeName_98: void onClick(android.view.View)&gt;" realHandler="&lt;c.b.b.h.t: void onClick(android.content.DialogInterface,int)&gt;" />
+                </View>
+                <View type="android.widget.Button" id="16908315" idName="button3">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908886" idName="topPanel">
+          <Child>
+            <View type="android.widget.LinearLayout" id="16908887" idName="title_template">
+              <Child>
+                <View type="android.widget.ImageView" id="16908294" idName="icon">
+                </View>
+                <View type="com.android.internal.widget.DialogTitle" id="16908888" idName="alertTitle">
+                </View>
+              </Child>
+            </View>
+            <View type="android.widget.ImageView" id="16908889" idName="titleDivider">
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.FrameLayout" id="16908895" idName="customPanel">
+          <Child>
+            <View type="android.widget.FrameLayout" id="16908331" idName="custom">
+            </View>
+          </Child>
+        </View>
+      </Child>
+    </View>
+  </Dialog>
+  <Dialog name="c.d.a.b.h.d" allocLineNumber="12" allocStmt="$r11 = new c.d.a.b.h.d" allocMethod="&lt;com.anokha.entrypoint.DelaBrowser$c: void onReceive(android.content.Context,android.content.Intent)&gt;">
+    <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+      <Child>
+        <View type="android.widget.TextView" id="2131296441" idName="dela_browser_action_dialog_text">
+        </View>
+        <View type="android.widget.RelativeLayout" id="-1" idName="NO_ID">
+          <Child>
+            <View type="android.widget.Button" id="2131296440" idName="dela_browser_action_cancel">
+              <EventAndHandler event="click" handler="&lt;com.anokha.entrypoint.DelaBrowser$c$a: void onClick(android.view.View)&gt;" />
+              <EventAndHandler event="click" handler="&lt;com.anokha.entrypoint.DelaBrowser$c$b: void onClick(android.view.View)&gt;" />
+            </View>
+            <View type="android.widget.Button" id="2131296442" idName="dela_browser_action_ok">
+              <EventAndHandler event="click" handler="&lt;com.anokha.entrypoint.DelaBrowser$c$a: void onClick(android.view.View)&gt;" />
+              <EventAndHandler event="click" handler="&lt;com.anokha.entrypoint.DelaBrowser$c$b: void onClick(android.view.View)&gt;" />
+            </View>
+          </Child>
+        </View>
+      </Child>
+    </View>
+  </Dialog>
+  <Dialog name="android.app.AlertDialog" allocLineNumber="-1" allocStmt="$r6 = virtualinvoke $r1.&lt;android.app.AlertDialog$Builder: android.app.AlertDialog create()&gt;()" allocMethod="&lt;com.anokha.delacontacts.DelaContactAddEditActivity: void E(boolean)&gt;">
+    <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+      <Child>
+        <View type="android.widget.FrameLayout" id="16908895" idName="customPanel">
+          <Child>
+            <View type="android.widget.FrameLayout" id="16908331" idName="custom">
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908890" idName="buttonPanel">
+          <Child>
+            <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="android.widget.LinearLayout" id="16908891" idName="leftSpacer">
+                </View>
+                <View type="android.widget.Button" id="16908315" idName="button3">
+                </View>
+                <View type="android.widget.Button" id="16908314" idName="button2">
+                </View>
+                <View type="android.widget.LinearLayout" id="16908892" idName="rightSpacer">
+                </View>
+                <View type="android.widget.Button" id="16908313" idName="button1">
+                  <EventAndHandler event="click" handler="&lt;FakeName_54: void onClick(android.view.View)&gt;" realHandler="&lt;c.b.c.q: void onClick(android.content.DialogInterface,int)&gt;" />
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908893" idName="contentPanel">
+          <Child>
+            <View type="android.widget.ScrollView" id="16908894" idName="scrollView">
+              <Child>
+                <View type="android.widget.TextView" id="16908299" idName="message">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908886" idName="topPanel">
+          <Child>
+            <View type="android.widget.ImageView" id="16908889" idName="titleDivider">
+            </View>
+            <View type="android.widget.LinearLayout" id="16908887" idName="title_template">
+              <Child>
+                <View type="com.android.internal.widget.DialogTitle" id="16908888" idName="alertTitle">
+                </View>
+                <View type="android.widget.ImageView" id="16908294" idName="icon">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+      </Child>
+    </View>
+  </Dialog>
+  <Dialog name="android.app.AlertDialog" allocLineNumber="2" allocStmt="$r13 = virtualinvoke $r3.&lt;android.app.AlertDialog$Builder: android.app.AlertDialog create()&gt;()" allocMethod="&lt;com.anokha.delashare.DelaShare: void A(c.b.e.g3,c.b.e.b2)&gt;">
+    <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+      <Child>
+        <View type="android.widget.LinearLayout" id="16908890" idName="buttonPanel">
+          <Child>
+            <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="android.widget.Button" id="16908315" idName="button3">
+                </View>
+                <View type="android.widget.Button" id="16908314" idName="button2">
+                  <EventAndHandler event="click" handler="&lt;FakeName_72: void onClick(android.view.View)&gt;" realHandler="&lt;com.anokha.delashare.DelaShare$u: void onClick(android.content.DialogInterface,int)&gt;" />
+                </View>
+                <View type="android.widget.LinearLayout" id="16908891" idName="leftSpacer">
+                </View>
+                <View type="android.widget.LinearLayout" id="16908892" idName="rightSpacer">
+                </View>
+                <View type="android.widget.Button" id="16908313" idName="button1">
+                  <EventAndHandler event="click" handler="&lt;FakeName_76: void onClick(android.view.View)&gt;" realHandler="&lt;com.anokha.delashare.DelaShare$v: void onClick(android.content.DialogInterface,int)&gt;" />
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.FrameLayout" id="16908895" idName="customPanel">
+          <Child>
+            <View type="android.widget.FrameLayout" id="16908331" idName="custom">
+              <Child>
+                <View type="android.widget.EditText" id="-1" idName="NO_ID">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908893" idName="contentPanel">
+          <Child>
+            <View type="android.widget.ScrollView" id="16908894" idName="scrollView">
+              <Child>
+                <View type="android.widget.TextView" id="16908299" idName="message">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908886" idName="topPanel">
+          <Child>
+            <View type="android.widget.LinearLayout" id="16908887" idName="title_template">
+              <Child>
+                <View type="android.widget.ImageView" id="16908294" idName="icon">
+                </View>
+                <View type="com.android.internal.widget.DialogTitle" id="16908888" idName="alertTitle">
+                </View>
+              </Child>
+            </View>
+            <View type="android.widget.ImageView" id="16908889" idName="titleDivider">
+            </View>
+          </Child>
+        </View>
+      </Child>
+    </View>
+  </Dialog>
+  <Dialog name="android.app.Dialog" allocLineNumber="-1" allocStmt="$r4 = new android.app.Dialog" allocMethod="&lt;b.m.b.l: android.app.Dialog A0(android.os.Bundle)&gt;">
+  </Dialog>
+  <Dialog name="b.b.c.g" allocLineNumber="-1" allocStmt="r16 = new b.b.c.g" allocMethod="&lt;b.b.c.g$a: b.b.c.g a()&gt;">
+  </Dialog>
+  <Dialog name="android.app.AlertDialog" allocLineNumber="-1" allocStmt="$r11 = virtualinvoke $r4.&lt;android.app.AlertDialog$Builder: android.app.AlertDialog create()&gt;()" allocMethod="&lt;com.anokha.delashare.DelaShare: void j(java.util.ArrayList,c.b.e.g3,int,boolean,c.b.a.g1)&gt;">
+    <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+      <Child>
+        <View type="android.widget.LinearLayout" id="16908893" idName="contentPanel">
+          <Child>
+            <View type="android.widget.ScrollView" id="16908894" idName="scrollView">
+              <Child>
+                <View type="android.widget.TextView" id="16908299" idName="message">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908890" idName="buttonPanel">
+          <Child>
+            <View type="android.widget.LinearLayout" id="-1" idName="NO_ID">
+              <Child>
+                <View type="android.widget.Button" id="16908315" idName="button3">
+                </View>
+                <View type="android.widget.LinearLayout" id="16908892" idName="rightSpacer">
+                </View>
+                <View type="android.widget.Button" id="16908314" idName="button2">
+                  <EventAndHandler event="click" handler="&lt;FakeName_84: void onClick(android.view.View)&gt;" realHandler="&lt;com.anokha.delashare.DelaShare$h: void onClick(android.content.DialogInterface,int)&gt;" />
+                </View>
+                <View type="android.widget.Button" id="16908313" idName="button1">
+                  <EventAndHandler event="click" handler="&lt;FakeName_80: void onClick(android.view.View)&gt;" realHandler="&lt;com.anokha.delashare.DelaShare$i: void onClick(android.content.DialogInterface,int)&gt;" />
+                </View>
+                <View type="android.widget.LinearLayout" id="16908891" idName="leftSpacer">
+                </View>
+              </Child>
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.LinearLayout" id="16908886" idName="topPanel">
+          <Child>
+            <View type="android.widget.LinearLayout" id="16908887" idName="title_template">
+              <Child>
+                <View type="com.android.internal.widget.DialogTitle" id="16908888" idName="alertTitle">
+                </View>
+                <View type="android.widget.ImageView" id="16908294" idName="icon">
+                </View>
+              </Child>
+            </View>
+            <View type="android.widget.ImageView" id="16908889" idName="titleDivider">
+            </View>
+          </Child>
+        </View>
+        <View type="android.widget.FrameLayout" id="16908895" idName="customPanel">
+          <Child>
+            <View type="android.widget.FrameLayout" id="16908331" idName="custom">
+            </View>
+          </Child>
+        </View>
+      </Child>
+    </View>
+  </Dialog>
+</GUIHierarchy>
