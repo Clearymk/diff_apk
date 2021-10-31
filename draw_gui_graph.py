@@ -114,7 +114,7 @@ def get_project_path():
 
 if __name__ == "__main__":
     node_names = {}
-    root, view_graph = create_view_graph(os.path.join(get_project_path(), "res\\diff_res.xml"))
+    root, view_graph = create_view_graph(os.path.join(get_project_path(), "test\\diff_res.xml"))
     for child in root.childNodes:
         if child.attributes and child.hasAttribute("name"):
             child_node_name = child.getAttribute("name")

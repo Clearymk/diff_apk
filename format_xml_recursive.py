@@ -54,5 +54,5 @@ def get_result_path(xml_path):
 
 
 if __name__ == "__main__":
-    xml_path = os.path.join(get_project_path(), "res\\apk.xml")
+    xml_path = os.path.join(get_project_path(), "test\\base_apk.xml")
     sort(xml_path, get_result_path(xml_path))
