@@ -215,7 +215,8 @@ class DrawGUIGraph:
                 if view_child.nodeName == 'View':
                     view_tree = self.get_view_node(view_child)
                     self.paint_view_tree(view_tree, child_node_name, view_graph)
-        view_graph.view(directory=self.result_path, filename="gui_diff")
+        # view_graph.view(directory=self.result_path, filename="gui_diff")
+        view_graph.render(directory=self.result_path, filename="gui_diff")
 
 
 def get_project_path():
